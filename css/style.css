@@ -1,0 +1,29 @@
+/*==== site jornalismo e democracia ====*/
+/*==== desenvolvido por bibiana davila ===*/
+/*==== projeto desenvolvido para o curso de Jornalismo da UFRGS ===*/
+/*==== outubro de 2018 ===*/
+
+/*
+    ********************************************************************************************************
+*//* geral */
+body{
+    font-family: 'Raleway', sans-serif;;
+    font-size: 14pt;
+    line-height: 20pt;
+}
+
+h1{
+    font-size: 60pt;
+    line-height: 80px;
+    text-transform: lowercase;
+}
+.divider{
+    width: 300px;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    border-bottom: 5px solid #000;
+}
+
+#home{
+    padding-top: 60px;
+}
