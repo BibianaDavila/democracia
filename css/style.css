@@ -11,7 +11,17 @@ body{
     font-size: 14pt;
     line-height: 20pt;
 }
-
+a{
+    color: #8fe0f1;
+    text-decoration: none !important;
+    border-bottom: 2px solid #8fe0f1;
+    margin-bottom: -5px;
+    transition: .2s all ease;
+}
+a:hover{
+    color: #ffd67b;
+    border-bottom: 5px solid #ffd67b;
+}
 h1{
     font-size: 60pt;
     line-height: 80px;
@@ -21,9 +31,104 @@ h1{
     width: 300px;
     padding-top: 50px;
     margin-bottom: 50px;
-    border-bottom: 5px solid #000;
+    border-bottom: 8px dotted #000;
+}
+.axis path, .axis line {
+    fill: grey;
+    stroke-width: '1px';
+    shape-rendering: crispEdges;
+}
+#home{
+    padding: 60px 0 120px 0;
 }
 
-#home{
-    padding-top: 60px;
+.correlac-leg{
+    vertical-align: bottom;
+    margin-top: 50px;
+}
+.correlac-leg ul{
+    vertical-align: bottom;
+    list-style: none;
+    padding: 0px;
+}
+.correlac-leg ul.botoes li{
+    display: inline-block;
+    font-size: 11pt;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    color: #fff;
+    background-color: #bcbdbd;
+    border: 1.5px solid #bcbdbd;
+    transition: .2s all ease;
+    font-weight: bold;
+}
+.correlac-leg ul.botoes li:hover, .correlac-leg ul.botoes li.active{
+    background-color: #fff;
+    border: 1.5px solid #8fe0f1;
+    color: #8fe0f1;
+    cursor: pointer;
+}
+.legenda-din{
+    display: none;
+}
+.legenda-din.active{
+    display: block;
+}
+.leg-cor{
+    display: inline-block;
+    background-color: black;
+    width: 9px;
+    height: 15px;
+}
+.leg-cor-1{
+    display: inline-block;
+    background-color: black;
+    width: 18px;
+    height: 15px;
+}
+.full1{
+    background-color: #37566A;
+}
+.full2{
+    background-color: #6E8493;
+}
+.flaw1{
+    background-color: #A0C1D1;
+}
+.flaw2{
+    background-color: #D2EAEF;
+}
+.hyb1{
+    background-color: #FFCC99;
+}
+.hyb2{
+    background-color: #FFEFB0;
+}
+.aut1{
+    background-color: #B61B1B;
+    width: 6px;
+}
+.aut2{
+    background-color: #EF9575;
+    width: 6px;
+}
+.aut3{
+    background-color: #FF7373;
+    width: 6px;
+}
+.boa{
+    background-color: #D2EAEF;
+}
+.relat{
+    background-color: #FFEFB0;
+}
+.sens{
+    background-color:#FFCC99;
+}
+.difi{
+    background-color:#e13c3c;  
+}
+.grave{
+    background-color:#3C3636;
 }
