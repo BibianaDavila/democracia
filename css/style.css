@@ -8,13 +8,22 @@
 *//* geral */
 body{
     font-family: 'Raleway', sans-serif;;
-    font-size: 14pt;
-    line-height: 20pt;
+    font-size: 13pt;
+    line-height: 18pt;
+}
+nav{
+    position: fixed;
+    z-index:1000;
+}
+nav, footer{
+    width: 100%;
+    height: 10px;
+    background-color: #000;
 }
 a{
-    color: #8fe0f1;
+    color: #0cbce1;
     text-decoration: none !important;
-    border-bottom: 2px solid #8fe0f1;
+    border-bottom: 2px solid #0cbce1;
     margin-bottom: -5px;
     transition: .2s all ease;
 }
@@ -22,10 +31,24 @@ a:hover{
     color: #ffd67b;
     border-bottom: 5px solid #ffd67b;
 }
+hr{
+    margin: 75px auto;
+    width: 40%;
+    border-top: 6px dotted rgba(0,0,0,.3);
+}
 h1{
-    font-size: 60pt;
+    font-family: 'Philosopher';
+    font-size: 72pt;
     line-height: 80px;
     text-transform: lowercase;
+}
+h2,h3,h4,h5{
+    font-family: 'Philosopher';
+}
+p.first::first-letter { 
+    font-family: 'Philosopher';
+    font-size: 300%;
+    font-weight: bold;
 }
 .divider{
     width: 300px;
@@ -39,12 +62,13 @@ h1{
     shape-rendering: crispEdges;
 }
 #home{
-    padding: 60px 0 120px 0;
+    padding: 60px 0 70px 0;
 }
 
 .correlac-leg{
     vertical-align: bottom;
     margin-top: 50px;
+    padding-left: 50px;
 }
 .correlac-leg ul{
     vertical-align: bottom;
@@ -65,12 +89,14 @@ h1{
 }
 .correlac-leg ul.botoes li:hover, .correlac-leg ul.botoes li.active{
     background-color: #fff;
-    border: 1.5px solid #8fe0f1;
-    color: #8fe0f1;
+    border: 1.5px solid #0cbce1;
+    color: #0cbce1;
     cursor: pointer;
 }
 .legenda-din{
     display: none;
+    list-style: none;
+    padding: 0px;
 }
 .legenda-din.active{
     display: block;
@@ -131,4 +157,18 @@ h1{
 }
 .grave{
     background-color:#3C3636;
+}
+.aut{
+    background-color: #e86363;
+}
+.imp{
+    background-color: #b7e542;
+}
+.grid path {
+  stroke: none;
+}
+
+.grid line {
+  stroke: #E0E0E0;
+  shape-rendering: crispEdges;
 }
