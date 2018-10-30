@@ -172,3 +172,26 @@ p.first::first-letter {
   stroke: #E0E0E0;
   shape-rendering: crispEdges;
 }
+@media only screen and (max-width: 480px){
+    body{
+        max-width: 480px;
+        font-size: 12pt;
+        line-height: 16pt;
+    }
+    hr{
+        margin: 45px auto;
+    }
+    h1{
+        font-size: 27pt;
+        line-height: 32px;
+    }
+    .divider{
+        width: 75%;
+        border-bottom:5px dotted #000;
+        padding:15px 0px;
+    }
+    .correlac-leg{
+        padding-left: 0px;
+        margin-top: 0px;
+    }
+}
