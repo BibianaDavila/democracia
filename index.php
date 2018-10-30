@@ -20,7 +20,7 @@
 	<!-- estilos (css+bootstrap) -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="shortcut icon" href="icon.png" />
 
 	<!-- 
 	//////////////////////////////////////////////////////
