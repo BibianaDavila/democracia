@@ -50,8 +50,9 @@
 	<div class="container">
 		<section id="home">
 	  		<div class="row">
-	  			<div class="col-md-9">
+	  			<div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0">
 	  				<h1>Jornalismo&<br/>democracia</h1>
+	  				<h5>[em construção]</h5>
 	  				<div class="divider"></div>
 
 	  				<p class="first">
@@ -62,6 +63,9 @@
 	  				</p>
 	  				<p>
 	  					Neste sentido, cruzamos os dados do <a href="https://infographics.economist.com/2018/DemocracyIndex/">Democracy Index</a>, elaborado anualmente pela revista <a href="https://www.economist.com/">The Economist</a>, que calcula o índice de democracia para 167 países, a partir de mais de 60 indicadores diferentes; e os dados da própria Repórteres Sem Fronteira, sobre liberdade de imprensa, que avaliam 180 países, através de questionários e dados sobre violência contra profissionais da área. Desta forma, buscamos uma imagem da relação entre democracia e jornalismo.
+	  				</p>
+	  				<p>
+	  					Foram utilizadas as informações de 161 países, presentes nos dois estudos pelos últimos cinco anos. O ano de 2018 não foi contabilizado porque o índice de democracia ainda não foi publicado pela revista <i>The Economist</i>. 
 	  				</p>
 	  			</div>
 	  		</div>
@@ -109,66 +113,262 @@
 							<li><div class="leg-cor-1 grave"></div> Situação grave</li>
 						</ul>
 					</div>
+					<div class="correlac-leg">
+						
+						<ul class="botoes">
+							<li class="active">Filtros</li>
+						</ul>
+
+						<ul class="legenda-din filter active">
+							<li>
+								<select name="local" id="local-selct">
+									<option value="">Todos</option>
+									<option value="AF">África</option>
+									<option value="AM">América</option>
+									<option value="AS">Ásia</option>
+									<option value="EU">Europa</option>
+									<option value="OC">Oceania</option>
+								</select>
+							</li>
+							<li>
+								<select name="ano" id="ano-selct">
+									<option value="17">2017</option>
+									<option value="16">2016</option>
+									<option value="15">2015</option>
+									<option value="14">2014</option>
+									<option value="13">2013</option>
+								</select>
+							</li>
+							
+						</ul>
+						<br/>
+						<p>
+							<b>Coeficiente de correlação de Pearson:</b> <span id="correlat"></span>
+						</p>
+					</div>
 				</div>
 			</div>
 		</section>
 		<section>
 			<div class="row">
-	  			<div class="col-md-9">
+	  			<div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0">
 	  				<h4><i class="fa fa-exclamation-circle"></i> para entender o gráfico</h4>
 	  				<p>
 	  					O <b>índice de democracia</b> varia de zero a dez, sendo que o zero corresponde a um regime plenamente autoritário e o 10 a um regime plenamente democrático. 
 	  				</p>
 	  				<p>
-	  					Já o <b>índice de liberdade de imprensa</b> varia de zero a 100, com o zero correspondendo à liberdade completa (nenhuma ameaça aos repórteres) e 100 a censura total e nenhuma garantia de segurança aos jornalistas na região. 
+	  					Já o <b>índice de liberdade de imprensa</b> varia de zero a 100, com o zero correspondendo  a censura total. sem nenhuma garantia de segurança aos jornalistas na região e o 100 à liberdade completa (nenhuma ameaça aos repórteres). <b>A escala original utilizada pelos Repórteres Sem Fronteira é inversa à utilizada aqui.</b> 
 	  				</p>
 	  				<p>
-	  					No gráfico acima, é possível perceber uma grande correlação entre os dois indicadores, com um grau de 0.7 de correspondência entre eles. Ou seja, há uma tendência de que países mais democráticos também sejam países com maior liberdade de imprensa.
+	  					No gráfico acima, é possível perceber uma grande correlação entre os dois indicadores, com um grau consistente de 0.7 de correspondência entre eles, nos últimos anos. Ou seja, há uma tendência de que países mais democráticos também sejam países com maior liberdade de imprensa.
 	  				</p>
 	  				<p>
 	  					Ao lado, é possível verificar a maneira como as organizações classificam estes índices, de acordo com o nível de democracia ou de liberdade de imprensa.
 	  				</p>
 	  				<hr/>
-	  				<p class="first">
+	  			</div>
+	  		</div>
+		</section>
+		<section id="br">
+			<div class="row">
+				<div class="col-md-6">
+					<p class="first">
 	  					Em relação ao Brasil, o país ocupa a 102º posição no ranking de liberdade de imprensa, com uma pontuação de 31.20, uma situação considerada "sensível". Em relação à democracia, o país ocupou o 49º em 2017, com 6.86 pontos, sendo considerado uma "democracia imperfeita". 
 	  				</p>
 	  				<p>
 	  					Abaixo, o histórico brasileiro nos dois rankings e os índices alcançados pelo país nos últimos sete anos.  
 	  				</p>
 	  				<br/><br/>
-	  			</div>
-	  		</div>
-		</section>
-				<section id="br">
-			<div class="row">
-				<div class="col-md-10 text-right">
-					<ul class="legenda-din active inline">
-						<li style="display: inline-block; margin-right: 10px; "><div class="leg-cor-1 flaw2"></div> Democracia</li>
-						<li style="display: inline-block;"><div class="leg-cor-1 imp"></div> Liberdade de imprensa </li>
-					</ul>
-				</div>
-				<div class="col-md-5 text-center" id="brasil-cont">
-					<div class="data-box" style="max-width: 100%; margin-bottom: 80px;">
+	  				 <h4><i class="fa fa-exclamation-circle"></i> para entender os gráficos</h4>
+	  				<p>
+	  					O <b>gráfico da direita</b> indica a posição brasileira nos dois rankings, nos últimos sete anos. <b>Quanto menor</b> a posição neste gráfico, melhor foi o desempenho do país. É preciso ressaltar, entretanto, que a posição no ranking também está ligada a fatores externos ao Brasil, que causam movimentações em toda a lista. O <b>gráfico da esquerda</b> indica o índice alcançado pelo Brasil nos rankings no mesmo período.  
+	  				</p>
+	  			</div>	
+	  			<div class="col-md-6" id="brasil-cont">
+	  			<div class="correlac-leg text-right">
+	  				<div class="data-box" style="max-width: 100%; margin-top: -50px;">
 		  				<div id="brasil"></div>
 					</div>
-				</div>
-				<div class="col-md-5 text-center" id="brasil-cont2">
-					<div class="data-box" style="max-width: 100%; margin-bottom: 80px;">
-		  				<div id="brasilindice"></div>
+
+						<ul class="legenda-din filter active">
+							<li>
+							<select name="pais" id="slct-pais">
+							    <option value="Noruega">Noruega</option>
+							    <option value="Suécia">Suécia</option>
+							    <option value="Holanda">Holanda</option>
+							    <option value="Finlândia">Finlândia</option>
+							    <option value="Suíça">Suíça</option>
+							    <option value="Jamaica">Jamaica</option>
+							    <option value="Bélgica">Bélgica</option>
+							    <option value="Nova" zelândia="">Nova Zelândia</option>
+							    <option value="Dinamarca">Dinamarca</option>
+							    <option value="Costa rica">Costa Rica</option>
+							    <option value="Áustria">Áustria</option>
+							    <option value="Estônia">Estônia</option>
+							    <option value="Islândia">Islândia</option>
+							    <option value="Portugal">Portugal</option>
+							    <option value="Alemanha">Alemanha</option>
+							    <option value="Irlanda">Irlanda</option>
+							    <option value="Luxemburgo">Luxemburgo</option>
+							    <option value="Canadá">Canadá</option>
+							    <option value="Austrália">Austrália</option>
+							    <option value="Uruguai">Uruguai</option>
+							    <option value="Suriname">Suriname</option>
+							    <option value="Gana">Gana</option>
+							    <option value="Letônia">Letônia</option>
+							    <option value="Chipre">Chipre</option>
+							    <option value="Namíbia">Namíbia</option>
+							    <option value="Eslováquia">Eslováquia</option>
+							    <option value="África do sul">África do Sul</option>
+							    <option value="Cabo verde">Cabo Verde</option>
+							    <option value="Espanha">Espanha</option>
+							    <option value="Eslovênia">Eslovênia</option>
+							    <option value="França">França</option>
+							    <option value="República tcheca">República Tcheca</option>
+							    <option value="Lituânia">Lituânia</option>
+							    <option value="Chile">Chile</option>
+							    <option value="Trinidad e tobago">Trinidad e Tobago</option>
+							    <option value="Reino unido">Reino Unido</option>
+							    <option value="Burkina faso">Burkina Faso</option>
+							    <option value="Taiwan">Taiwan</option>
+							    <option value="Coréia do sul">Coréia do Sul</option>
+							    <option value="Romênia">Romênia</option>
+							    <option value="Estados unidos">Estados Unidos</option>
+							    <option value="Itália">Itália</option>
+							    <option value="Comores">Comores</option>
+							    <option value="Senegal">Senegal</option>
+							    <option value="Argentina">Argentina</option>
+							    <option value="Papua nova guiné">Papua Nova Guiné</option>
+							    <option value="Madagascar">Madagascar</option>
+							    <option value="Guiana">Guiana</option>
+							    <option value="Maurícia">Maurícia</option>
+							    <option value="Fiji">Fiji</option>
+							    <option value="Polônia">Polônia</option>
+							    <option value="República dominicana">República Dominicana</option>
+							    <option value="Haiti">Haiti</option>
+							    <option value="Georgia">Georgia</option>
+							    <option value="Bósnia herzegovina">Bósnia Herzegovina</option>
+							    <option value="Níger">Níger</option>
+							    <option value="Malawi">Malawi</option>
+							    <option value="Malta">Malta</option>
+							    <option value="El salvador">El Salvador</option>
+							    <option value="Japão">Japão</option>
+							    <option value="Lesoto">Lesoto</option>
+							    <option value="Croácia">Croácia</option>
+							    <option value="Hong kong">Hong Kong</option>
+							    <option value="Mongólia">Mongólia</option>
+							    <option value="Mauritânia">Mauritânia</option>
+							    <option value="Hungria">Hungria</option>
+							    <option value="Grécia">Grécia</option>
+							    <option value="Albânia">Albânia</option>
+							    <option value="Sérvia">Sérvia</option>
+							    <option value="Serra leoa">Serra Leoa</option>
+							    <option value="Armênia">Armênia</option>
+							    <option value="Moldávia">Moldávia</option>
+							    <option value="Guiné bissau">Guiné Bissau</option>
+							    <option value="Benin">Benin</option>
+							    <option value="Togo">Togo</option>
+							    <option value="Israel">Israel</option>
+							    <option value="Peru">Peru</option>
+							    <option value="Libéria">Libéria</option>
+							    <option value="Nicarágua">Nicarágua</option>
+							    <option value="Panamá">Panamá</option>
+							    <option value="Equador">Equador</option>
+							    <option value="Tanzânia">Tanzânia</option>
+							    <option value="Butão">Butão</option>
+							    <option value="Timor" leste="">Timor Leste</option>
+							    <option value="Quênia">Quênia</option>
+							    <option value="Tunísia">Tunísia</option>
+							    <option value="Moçambique">Moçambique</option>
+							    <option value="Líbano">Líbano</option>
+							    <option value="Ucrânia">Ucrânia</option>
+							    <option value="Brasil">Brasil</option>
+							    <option value="Montenegro">Montenegro</option>
+							    <option value="Guiné">Guiné</option>
+							    <option value="Kuwait">Kuwait</option>
+							    <option value="Nepal">Nepal</option>
+							    <option value="Paraguai">Paraguai</option>
+							    <option value="Gabão">Gabão</option>
+							    <option value="Macedônia">Macedônia</option>
+							    <option value="Bolívia">Bolívia</option>
+							    <option value="Bulgária">Bulgária</option>
+							    <option value="República centro africana">República Centro Africana</option>
+							    <option value="Zâmbia">Zâmbia</option>
+							    <option value="Guatemala">Guatemala</option>
+							    <option value="Uganda">Uganda</option>
+							    <option value="Afeganistão">Afeganistão</option>
+							    <option value="Nigéria">Nigéria</option>
+							    <option value="Angola">Angola</option>
+							    <option value="Gâmbia">Gâmbia</option>
+							    <option value="Chad">Chad</option>
+							    <option value="Indonésia">Indonésia</option>
+							    <option value="Qatar">Qatar</option>
+							    <option value="Zimbabwe">Zimbabwe</option>
+							    <option value="Omã">Omã</option>
+							    <option value="Emirados Árabes unidos">Emirados Árabes Unidos</option>
+							    <option value="Camarões">Camarões</option>
+							    <option value="Colômbia">Colômbia</option>
+							    <option value="Sri" lanka="">Sri Lanka</option>
+							    <option value="Jordânia">Jordânia</option>
+							    <option value="Filipinas">Filipinas</option>
+							    <option value="Palestina">Palestina</option>
+							    <option value="Marrocos">Marrocos</option>
+							    <option value="Algéria">Algéria</option>
+							    <option value="Myanmar">Myanmar</option>
+							    <option value="Índia">Índia</option>
+							    <option value="Paquistão">Paquistão</option>
+							    <option value="Tailândia">Tailândia</option>
+							    <option value="Honduras">Honduras</option>
+							    <option value="Camboja">Camboja</option>
+							    <option value="Venezuela">Venezuela</option>
+							    <option value="Malásia">Malásia</option>
+							    <option value="Bangladesh">Bangladesh</option>
+							    <option value="México">México</option>
+							    <option value="Rússia">Rússia</option>
+							    <option value="Tajiquistão">Tajiquistão</option>
+							    <option value="Etiópia">Etiópia</option>
+							    <option value="Singapura">Singapura</option>
+							    <option value="República democrática do congo">República democrática do Congo</option>
+							    <option value="Belarus">Belarus</option>
+							    <option value="Ruanda">Ruanda</option>
+							    <option value="Turquia">Turquia</option>
+							    <option value="Cazasquistão">Cazasquistão</option>
+							    <option value="Burundi">Burundi</option>
+							    <option value="Iraque">Iraque</option>
+							    <option value="Egito">Egito</option>
+							    <option value="Líbia">Líbia</option>
+							    <option value="Azerbaijão">Azerbaijão</option>
+							    <option value="Irã">Irã</option>
+							    <option value="Uzbequistão">Uzbequistão</option>
+							    <option value="Bahrain">Bahrain</option>
+							    <option value="Iêmen">Iêmen</option>
+							    <option value="Árabia saudita">Árabia Saudita</option>
+							    <option value="Laos">Laos</option>
+							    <option value="Guiné" equatorial="">Guiné Equatorial</option>
+							    <option value="Cuba">Cuba</option>
+							    <option value="Djibouti">Djibouti</option>
+							    <option value="Sudão">Sudão</option>
+							    <option value="Vietnã">Vietnã</option>
+							    <option value="China">China</option>
+							    <option value="Síria">Síria</option>
+							    <option value="Turcomenistão">Turcomenistão</option>
+							    <option value="Eritréia">Eritréia</option>
+							    <option value="Coréia do norte">Coréia do Norte</option>
+							</select>
+							</li>
+						</ul>
+						<ul class="legenda-din active inline">
+							<li style="display: inline-block; margin-right: 10px; "><div class="leg-cor-1 flaw2"></div> Democracia</li>
+							<li style="display: inline-block;"><div class="leg-cor-1 imp"></div> Liberdade de imprensa </li>
+						</ul>
 					</div>
-				</div>				
+					
+				</div>	
 			</div>
 		</section>
 		<section>
 			<div class="row">
-	  			<div class="col-md-9">
-	  				<h4><i class="fa fa-exclamation-circle"></i> para entender os gráficos</h4>
-	  				<p>
-	  					O <b>gráfico da direita</b> indica a posição brasileira nos dois rankings, nos últimos sete anos. <b>Quanto menor</b> a posição neste gráfico, melhor foi o desempenho do país. É preciso ressaltar, entretanto, que a posição no ranking também está ligada a fatores externos ao Brasil, que causam movimentações em toda a lista. O <b>gráfico da esquerda</b> indica o índice alcançado pelo Brasil nos rankings no mesmo período.  
-	  				</p>
-	  				<p>
-	  					Em relação aos indicadores, é preciso lembrar que quanto maior o índice de liberdade de imprensa, pior é a situação do país no indicador. Já no índice de democracia, quanto maior a pontuação, melhor a situação do país. Em uma situação ideal, os pontos verdes do gráfico baixariam sua posição, à medida que os azuis subissem (mais liberdade para a imprensa e  democracia). 
-	  				</p>
+	  			<div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0">
 	  				<hr/>
 	  				<p class="first">
 	  					Na maior parte dos países (61,5%) a liberdade de imprensa está em uma "situação sensível" ou "difícil". Destas regiões, 65,65% tem regimes híbridos ou puramente autoritários; 33,33% têm democracias imperfeitas; e apenas a República de Maurícia, um país insular do Oceano Índico com cerca de 1.356.388 habitantes, é considerada uma democracia plena com liberdade de imprensa em situação "sensível".
@@ -185,12 +385,12 @@
 	  	</section>
 		<section id="barra">
 			<div class="row">
-				<div class="col-md-8 text-center" id="barras-cont">
+				<div class="col-md-9 text-center" id="barras-cont">
 					<div class="data-box" style="max-width: 100%; margin-bottom: 80px;">
 		  				<div id="barras"></div>
 					</div>
 				</div>
-				<div class="col-md-4">
+				<div class="col-md-3">
 					<div class="correlac-leg">
 						
 						<ul class="botoes">
@@ -209,7 +409,7 @@
 		</section>
 		<section>
 			<div class="row">
-	  			<div class="col-md-9">
+	  			<div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0">
 	  				<h4><i class="fa fa-exclamation-circle"></i> para entender o gráfico</h4>
 	  				<p>
 	  					Os países estão distribuídos de acordo com a classificação definida pelos Repórteres Sem Fronteira. Países com um índice de liberdade de imprensa
@@ -243,6 +443,7 @@
 
 	<!--========= gráficos ===========-->
 	<script>
+	
 		var width = $('#correlac-cont').width();
 		var w = width;
 		var h = window.innerHeight-100;
@@ -256,155 +457,199 @@
 		});
 
 		var data;
+
+		/*=================================
+
+		Primeiro Gráfico
+					Dispersão democracia vs jornalismo
+
+		==================================*/
 		d3.json("data2017.json", function(dataJson) {
 			data = dataJson;
 
-		/* desenha o gráfico, com as escalas */
-		var xScale = d3.scale.linear().domain([0, d3.max(data, function(d) { return d.x; } ) + 10]).range([margin.left, w - margin.right]);
-		var yScale = d3.scale.linear().domain([ d3.max(data, function(d) { return d.y; } ) + 10,0]).range([margin.top, h - margin.bottom]);
+			$.each(data, function(index,item){
+				data[index]['y'] = data[index]['rsf'+"17"];
+				data[index]['x'] = data[index]['dem'+"17"];
+			});
+			console.log(data);
 
-		var xAxis = d3.svg.axis().scale(xScale).orient("bottom").tickSize(2);
-		var yAxis = d3.svg.axis().scale(yScale).orient('left').tickSize(2);
+			/* desenha o gráfico, com as escalas */
+			var xScale = d3.scale.linear().domain([0,10.9]).range([margin.left, w - margin.right]);
+			var yScale = d3.scale.linear().domain([10.9,0]).range([margin.top, h - margin.bottom]);
 
-		/* posição inicial dos pontos, para ani*/
-		var circleInitialAttrs = {
-			cx: function(d){return xScale(d)},
-			r: 1,
-			fill: 'red'
-		};
+			var xAxis = d3.svg.axis().scale(xScale).orient("bottom").tickSize(2);
+			var yAxis = d3.svg.axis().scale(yScale).orient('left').tickSize(2);
 
-		/* cores dos pontos (de acordo com nível de democracia)*/
-		var demColors =  function(num){
-			if(num > 9) return "#37566A";
-			if(num > 8) return "#6E8493";
-			if(num > 7) return "#A0C1D1";
-			if(num > 6) return "#D2EAEF";
-			if(num > 5) return '#FFEFB0';
-			if(num > 4) return '#FFCC99';
-			if(num > 3) return '#EF9575';
-			if(num > 2) return '#FF7373';
-			if(num > 1) return '#B61B1B'}
+			/* posição inicial dos pontos, para ani*/
+			var circleInitialAttrs = {
+				cx: function(d){return xScale(d)},
+				r: 1,
+				fill: 'red',
+				class:function(d){return d.cont}
+			};
 
-		var pressColors =  function(num){
-			if(num > 55) return "#3C3636";
-			if(num > 35) return "#e13c3c";
-			if(num > 25) return "#FFCC99";
-			if(num > 15) return "#FFEFB0";
-			else return "#D2EAEF"}
+			/* atributos dos pontos */
+			var circleAttrs = {
+				cx: function(d) { return xScale(d.x); },
+				cy: function(d) { return yScale((100-d.y)/10); },
 
-		/* atributos dos pontos */
-		var circleAttrs = {
-			cx: function(d) { return xScale(d.x); },
-			cy: function(d) { return yScale(d.y); },
-			r: function(d){return 4},
-			fill: function(d){return demColors(d.x)}
-		};
-		var circleAttrs2 = {
-			cx: function(d) { return xScale(d.x); },
-			cy: function(d) { return yScale(d.y); },
-			r: function(d){return 4},
-			fill: function(d){return pressColors(d.y)}
-		};
+				r: function(d){return 4},
+				fill: function(d){return demColors(d.x)}
+			};
+			var circleAttrs2 = {
+				cx: function(d) { return xScale(d.x); },
+				cy: function(d) { return yScale((100-d.y)/10); },
+				r: function(d){return 4},
+				fill: function(d){return pressColors(d.y)}
+			};
 
-		var mouseOverHandler = function(d, i) {
-			d3.select(this).attr({
-		    	r: 10
-		  	});
-			svg.append('text')
-		    .attr({
-		      	id: 'tlegenda',
-		      	x: function() { return xScale(d.x) - 30 ; },
-		     	y: function() { return yScale(d.y) - 15 ; }, 
-		      	class: 'legenda'
-		    })
-		    .text(function() {
-		    	return [d.nome];
-		    });
-		};
+			var mouseOverHandler = function(d, i) {
+				d3.select(this).attr({
+			    	r: 10
+			  	});
+				svg.append('text')
+			    .attr({
+			      	id: 'tlegenda',
+			      	x: function() { return xScale(d.x) - 30 ; },
+			     	y: function() { return yScale((100-d.y)/10) - 15 ; }, 
+			      	class: 'legenda'+d.nome
+			    })
+			    .text(function() {
+			    	return [d.nome];
+			    });
+			};
 
-		var mouseOutHandler = function(d, i) {
-			d3.select(this).attr({
-		    	r:4
-		  	});
-		  	d3.select('#tlegenda').remove();
-		};
+			var mouseOutHandler = function(d, i) {
+				d3.select(this).attr({
+			    	r:4
+			  	});
+			  	d3.select('#tlegenda').remove();
+			};
 
-		var xAxisGroup = svg.append('g').attr({
-			'class': 'axis',
-			transform: 'translate(' + [0, h-margin.bottom] + ')'
-		}).call(xAxis);
+			var xAxisGroup = svg.append('g').attr({
+				'class': 'axis',
+				transform: 'translate(' + [0, h-margin.bottom] + ')'
+			}).call(xAxis);
 
-		svg.append("text")             
-			.attr("transform",
-			    "translate(" + (w-240) + " ," + 
-			                   (h) + ")")
-			.attr("y",-40)
-			.attr("x",25)
-			.style("text-anchor", "center")
-			.text("Índice de democracia");
+			svg.append("text")             
+				.attr("transform",
+				    "translate(" + (w-240) + " ," + 
+				                   (h) + ")")
+				.attr("y",-40)
+				.attr("x",25)
+				.style("text-anchor", "center")
+				.text("Índice de democracia");
 
-		var yAxisGroup = svg.append('g').attr({
-			'class': 'axis',
-			transform: 'translate(' + [margin.left, 0] + ')'
-		}).call(yAxis);
+			var yAxisGroup = svg.append('g').attr({
+				'class': 'axis',
+				transform: 'translate(' + [margin.left, 0] + ')'
+			}).call(yAxis);
 
-		svg.append("g")
-			.attr("class", "y axis")
-			.call(yAxis)
-			.append("text")
-			.attr("transform", "rotate(-90)")
-			.attr("y", 48)
-			.attr("x",-25)
-			.attr("dy", ".8em")
-			.style("text-anchor", "end")
-			.text("Liberdade de imprensa");
+			svg.append("g")
+				.attr("class", "y axis")
+				.call(yAxis)
+				.append("text")
+				.attr("transform", "rotate(-90)")
+				.attr("y", 48)
+				.attr("x",-25)
+				.attr("dy", ".8em")
+				.style("text-anchor", "end")
+				.text("Liberdade de imprensa");
 
-		var circles = svg.selectAll('circle')
-			.data(data)
-			.enter()
-			.append('circle')
-			.attr(circleInitialAttrs)
-			.on('mouseover', mouseOverHandler)
-			.on('mouseout', mouseOutHandler);
+			var circles = svg.selectAll('circle')
+				.data(data)
+				.enter()
+				.append('circle')
+				.attr(circleInitialAttrs)
+				.on('mouseover', mouseOverHandler)
+				.on('mouseout', mouseOutHandler);
 
-		circles.transition()
-			.delay(function(d, i){return i * 10;})
-			.duration(500)
-			.ease('in')
-			.attr(circleAttrs);
+			circles.transition()
+				.delay(function(d, i){return i * 10;})
+				.duration(500)
+				.ease('in')
+				.attr(circleAttrs);
 
-			$('.botoes li').click(function(){
-				if(!$(this).hasClass('active')){
+				$('.botoes li').click(function(){
+					if(!$(this).hasClass('active')){
 
-					var context = $(this).parents('.correlac-leg');
-					
-					$(context).find('.legenda-din').removeClass('active');
-					$(context).find('.botoes li').removeClass('active');
+						var context = $(this).parents('.correlac-leg');
+						
+						$(context).find('.legenda-din').removeClass('active');
+						$(context).find('.botoes li').removeClass('active');
 
-					var id = $(this).attr('id');
-					$('#leg-'+id).addClass('active');
-					$(this).addClass('active');		
+						var id = $(this).attr('id');
+						$('#leg-'+id).addClass('active');
+						$(this).addClass('active');		
 
-					if(id=='press'){
+						if(id=='press'){
+							circles.transition()
+							.delay(function(d, i){return i * 10;})
+							.duration(5)
+							.ease('in')
+							.attr(circleAttrs2);
+						}	
+						if(id=='dem'){
+							circles.transition()
+							.delay(function(d, i){return i * 10;})
+							.duration(5)
+							.ease('in')
+							.attr(circleAttrs);
+						}
+					}
+				});
+
+				$('#ano-selct').change(function(){
+					var year = $(this).val();
+
+					$.each(data, function(index,item){
+						data[index]['y'] = data[index]['rsf'+year];
+						data[index]['x'] = data[index]['dem'+year];
+					});
+
+					var colorType = $(this).parents('.correlac-leg').siblings('.correlac-leg').find('.botoes').find('li.active').attr('id');
+
+					if(colorType=='press'){
 						circles.transition()
-						.delay(function(d, i){return i * 10;})
-						.duration(5)
-						.ease('in')
 						.attr(circleAttrs2);
 					}	
-					if(id=='dem'){
+					if(colorType=='dem'){
 						circles.transition()
-						.delay(function(d, i){return i * 10;})
-						.duration(5)
-						.ease('in')
 						.attr(circleAttrs);
+					}		
+					if($('#local-selct').val()==""){
+						r = correlation(data);
+	           			$('#correlat').html(r.toFixed(2));
 					}
-				}
-			});
+				});
+				$('#local-selct').change(function(){
+					var local = $(this).val();
+
+					if(local!==''){
+						$('#correlac svg').find('circle').addClass('hide');
+						$('#correlac svg').find('circle.'+local).removeClass('hide');
+						
+						$('#correlat').html("-");
+					}
+					if(local==''){
+						$('#correlac svg').find('circle').removeClass('hide');
+					}
+					if(local==""){
+						r = correlation(data);
+	           			$('#correlat').html(r.toFixed(2));
+					}
+
+				});
+				var r = correlation(data);
+	           	$('#correlat').html(r.toFixed(2));
 
 		});
 
-		/* busca dados para o gráfico de barras */
+		/*=================================
+
+		BARRAS
+
+		==================================*/
 		d3.json("data2017.json", function(dataJson) {
 			
 			var html = '<table><thead><tr><th>nome</th><th>democracia</th><th>liberdade</th></tr></thead><tbody>';
@@ -477,356 +722,259 @@
 					niveldem = 'aut';
 				}
 
-				if(nivelpress=="ok"&&niveldem=="hyb")console.log(item['nome']);
 				imprensa[nivelpress][niveldem]++;
 
    				html = html+'<tr><td>'+item['nome']+'</td><td>'+item['x']+'</td><td>'+item['y']+'</td></tr>';	
 			});
 			html = html+'</tbody></table>';
-			console.log(imprensa);
 
 		});
-		var data = [
-		{
-			"imprensa": "Situação boa",
-			"full": 12, 
-			"flaw": 4, 
-			"hyb": 0, 
-			"aut": 0
-		},
-		{
-			"imprensa":"Rel. boa",
-			"full": 6, 
-			"flaw": 18, 
-			"hyb": 1, 
-			"aut": 1
-		},
-		{
-			"imprensa":"Sensível",
-			"full": 1,
-			"flaw": 23,
-			"hyb": 22,
-			"aut": 8
-		},
-		{
-			"imprensa":"Difícil",
-			"full": 0, 
-			"flaw": 10, 
-			"hyb": 14, 
-			"aut": 21
-		},
-		{
-			"imprensa":"Grave",
-			"full": 0, 
-			"flaw": 0, 
-			"hyb": 0, 
-			"aut": 20
-		}];
+			var data2 = [
+			{
+				"imprensa": "Situação boa",
+				"full": 12, 
+				"flaw": 4, 
+				"hyb": 0, 
+				"aut": 0
+			},
+			{
+				"imprensa":"Rel. boa",
+				"full": 6, 
+				"flaw": 18, 
+				"hyb": 1, 
+				"aut": 1
+			},
+			{
+				"imprensa":"Sensível",
+				"full": 1,
+				"flaw": 23,
+				"hyb": 22,
+				"aut": 8
+			},
+			{
+				"imprensa":"Difícil",
+				"full": 0, 
+				"flaw": 10, 
+				"hyb": 14, 
+				"aut": 21
+			},
+			{
+				"imprensa":"Grave",
+				"full": 0, 
+				"flaw": 0, 
+				"hyb": 0, 
+				"aut": 20
+			}];
 
-		var margin = {top: 20, right: 20, bottom: 30, left: 40},
-		    width = $('#barras-cont').width(),
-		    height = h-h/4;
+			var margin = {top: 20, right: 20, bottom: 30, left: 40},
+			    width = $('#barras-cont').width(),
+			    height = h-h/4;
 
-		var x0 = d3.scale.ordinal()
-		    .rangeRoundBands([0, width], .1);
+			var x0 = d3.scale.ordinal().rangeRoundBands([0, width], .1);
 
-		var x1 = d3.scale.ordinal();
+			var x1 = d3.scale.ordinal();
 
-		var y = d3.scale.linear()
-		    .range([height, 0]);
+			var y = d3.scale.linear().range([height, 0]);
 
-		var color = d3.scale.ordinal()
-		    .range(["#37566A", "#D2EAEF" , "#FFEFB0", "#e86363"]);
+			var color = d3.scale.ordinal().range(["#37566A", "#D2EAEF" , "#FFEFB0", "#e86363"]);
 
-		var xAxis = d3.svg.axis()
-		    .scale(x0)
-		    .tickSize(2)
-		    .orient("bottom");
+			var xAxis = d3.svg.axis()
+			    .scale(x0)
+			    .tickSize(2)
+			    .orient("bottom");
 
-		var yAxis = d3.svg.axis()
-		    .scale(y)
-		    .orient("left")
-		    .tickSize(2)
-		    .tickFormat(d3.format(".2s"));
+			var yAxis = d3.svg.axis()
+			    .scale(y)
+			    .orient("left")
+			    .tickSize(2)
+			    .tickFormat(d3.format(".2s"));
 
-		var svg2 = d3.select("#barras").append("svg")
-		    .attr("width", width + margin.left + margin.right)
-		    .attr("height", height + margin.top + margin.bottom)
-		    .append("g")
-		    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+			var svg2 = d3.select("#barras").append("svg")
+			    .attr("width", width + margin.left + margin.right)
+			    .attr("height", height + margin.top + margin.bottom)
+			    .append("g")
+			    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-		var ageNames = d3.keys(data[0]).filter(function(key) { return key !== "imprensa"; });
+			var ageNames = d3.keys(data2[0]).filter(function(key) { return key !== "imprensa"; });
 
-		data.forEach(function(d) {
-		    d.ages = ageNames.map(function(name) { return {name: name, value: +d[name]}; });
-		    });
+			data2.forEach(function(d) {
+			    d.ages = ageNames.map(function(name) { return {name: name, value: +d[name]}; });
+			    });
 
-		x0.domain(data.map(function(d) { return d.imprensa; }));
-		x1.domain(ageNames).rangeRoundBands([0, x0.rangeBand()]);
-		y.domain([0, d3.max(data, function(d) { return d3.max(d.ages, function(d) { return d.value; }); })]);
+			x0.domain(data2.map(function(d) { return d.imprensa; }));
+			x1.domain(ageNames).rangeRoundBands([0, x0.rangeBand()]);
+			y.domain([0, d3.max(data2, function(d) { return d3.max(d.ages, function(d) { return d.value; }); })]);
 
-		svg2.append("g")
-			.attr("class", "x axis")
-			.attr("transform", "translate(0," + height + ")")
-			.call(xAxis);
+			svg2.append("g")
+				.attr("class", "x axis")
+				.attr("transform", "translate(0," + height + ")")
+				.call(xAxis);
 
-		svg2.append("g")
-			.attr("class", "y axis")
-			.call(yAxis)
-			.append("text")
-			.attr("transform", "rotate(-90)")
-			.attr("dy", ".71em")
-			.style("text-anchor", "end")
-			.text("Países");
+			svg2.append("g")
+				.attr("class", "y axis")
+				.call(yAxis)
+				.append("text")
+				.attr("transform", "rotate(-90)")
+				.attr("dy", ".71em")
+				.style("text-anchor", "end")
+				.text("Países");
 
-		svg2.selectAll("text")
-			.attr("y",10);
+			svg2.selectAll("text")
+				.attr("y",10);
 
-		var state = svg2.selectAll(".groups")
-			.data(data)
-			.enter().append("g")
-			.attr("class", "groups")
-			.attr("transform", function(d) { return "translate(" + x0(d.imprensa) + ",0)"; });
+			var state = svg2.selectAll(".groups")
+				.data(data2)
+				.enter().append("g")
+				.attr("class", "groups")
+				.attr("transform", function(d) { return "translate(" + x0(d.imprensa) + ",0)"; });
 
-		state.selectAll("rect")
-			.data(function(d) { return d.ages; })
-			.enter().append("rect")
-			.attr("width", x1.rangeBand())
-			.attr("x", function(d) { return x1(d.name); })
-			.attr("y", function(d) { return y(d.value); })
-			.attr("height", function(d) { return height - y(d.value); })
-			.style("fill", function(d) { return color(d.name); });
-			
+			state.selectAll("rect")
+				.data(function(d) { return d.ages; })
+				.enter().append("rect")
+				.attr("width", x1.rangeBand())
+				.attr("x", function(d) { return x1(d.name); })
+				.attr("y", function(d) { return y(d.value); })
+				.attr("height", function(d) { return height - y(d.value); })
+				.style("fill", function(d) { return color(d.name); });
+				
 
-		/* gráfico brasil */
+		/*=================================
+
+		BRASIL
+
+		==================================*/
 		var height2 = h*2/3;
 		var width2 = $('#brasil-cont').width();
 
-		var svg3 = d3.select('#brasil').append('svg').attr({
-			width: width2,
-			height: height2
-		});
+		var svg3 = d3.select('#brasil').append('svg').attr({width: width2,height: height2});
+		var data3 = [];
 
-		var data;
-		d3.json("databrasil.json", function(dataJson) {
-			data = dataJson;
 
-		/* desenha o gráfico, com as escalas */
-		var xScale = d3.scale.linear().domain([2010, d3.max(data, function(d) { return d.x; } )]).range([margin.left, width2 - margin.right]);
-		var yScale = d3.scale.linear().domain([113,38]).range([margin.top, height2 - margin.bottom]);
+		d3.json("data2017.json", function(dataJson){
 
-		var xAxis = d3.svg.axis().scale(xScale).orient("bottom").tickSize(2).tickFormat(d3.format("d"));
-		var yAxis = d3.svg.axis().scale(yScale).orient('left').tickSize(2);
+			 var htmltest = "<select name='pais' id='pais'>";
+			$.each(dataJson, function(index,item){
+				htmltest = htmltest+"<option value="+item['nome']+">"+item['nome']+"<option>";
+				if(item['nome']=='Estados Unidos'){
+					var anoum = 13;
+					for(var k=0; k<10; k+=2){
+						data3[k] = {};
+						data3[k+1] = {};
+						data3[k]['x']="20"+anoum;
+						data3[k]['y']=item['dem'+anoum];
+						data3[k]['tipo']='d';
+						data3[k+1]['x']="20"+anoum;
+						data3[k+1]['y']=(100-parseInt(item['rsf'+anoum]))/10;
+						data3[k+1]['tipo']='i';
+						anoum++;
+					}
+					console.log(data3);
+				}
 
-		/* posição inicial dos pontos, para ani*/
-		var circleInitialAttrs = {
-			cx: function(d){return xScale(d)},
-			r: 1,
-			fill: 'red'
-		};
+			});	
+
+htmltest = htmltest+"</select>";
+			//	$('body').html(htmltest);
+			/* desenha o gráfico, com as escalas */
+			var xScale = d3.scale.linear().domain([2012, 2018]).range([margin.left, width2 - margin.right]);
+			var yScale = d3.scale.linear().domain([10,0]).range([margin.top, height2 - margin.bottom]);
+
+			var xAxis = d3.svg.axis().scale(xScale).orient("bottom").tickSize(2).tickFormat(d3.format("d"));
+			var yAxis = d3.svg.axis().scale(yScale).orient('left').tickSize(2);
+
+			/* posição inicial dos pontos, para ani*/
+			var circleInitialAttrsCnt = {
+				cx: function(d){return xScale(d)},
+				r: 1,
+				fill: 'red'
+			};
 		
-		/* cores dos pontos (de acordo com tipo de dados)*/
-		var controlColors =  function(tipo){
-			if(tipo =="d") return "#D2EAEF";
-			if(tipo =="i") return "#b7e542"}
+			/* cores dos pontos (de acordo com tipo de dados)*/
+			var controlColorsCnt =  function(tipo){
+				if(tipo =="d") return "#D2EAEF";
+				if(tipo =="i") return "#b7e542"}
 
-		/* atributos dos pontos */
-		var circleAttrs = {
-			cx: function(d) { return xScale(d.x); },
-			cy: function(d) { return yScale(d.y); },
-			r: function(d){return 4},
-			fill: function(d){return controlColors(d.tipo)}
-		};
+			/* atributos dos pontos */
+			var circleAttrsCnt = {
+				cx: function(d) { return xScale(d.x); },
+				cy: function(d) { return yScale(d.y); },
+				r: function(d){return 4},
+				fill: function(d){return controlColorsCnt(d.tipo)}
+			};
 
-		/* atributos dos pontos */
-		var circleAttrs = {
-			cx: function(d) { return xScale(d.x); },
-			cy: function(d) { return yScale(d.y); },
-			r: function(d){return 4},
-			fill: function(d){return controlColors(d.tipo)}
-		};
+			var xAxisGroup = svg3.append('g').attr({
+				'class': 'axis',
+				transform: 'translate(' + [0, height2-margin.bottom] + ')'
+			}).call(xAxis);
 
-		var mouseOverHandler = function(d, i) {
-			d3.select(this).attr({
-		    	r: 10
-		  	});
-			svg3.append('text')
-		    .attr({
-		      	id: 'tlegenda',
-		      	x: function() { return xScale(d.x) - 30 ; },
-		     	y: function() { return yScale(d.y) - 15 ; }, 
-		      	class: 'legenda'
-		    })
-		    .text(function() {
-		    	return ['#'+d.y];
-		    });
-		};
+			svg3.append("text")             
+				.attr("transform",
+				    "translate(" + (width2-100) + " ," + 
+				                   (height2) + ")")
+				.attr("y",-40)
+				.attr("x",50)
+				.style("text-anchor", "center")
+				.text("Ano");
 
-		var mouseOutHandler = function(d, i) {
-			d3.select(this).attr({
-		    	r:4
-		  	});
-		  	d3.select('#tlegenda').remove();
-		};
+			var yAxisGroup = svg3.append('g').attr({
+				'class': 'axis',
+				transform: 'translate(' + [margin.left, 0] + ')'
+			}).call(yAxis);
 
-		var xAxisGroup = svg3.append('g').attr({
-			'class': 'axis',
-			transform: 'translate(' + [0, height2-margin.bottom] + ')'
-		}).call(xAxis);
+			svg3.append("g")
+				.attr("class", "y axis")
+				.call(yAxis)
+				.append("text")
+				.attr("transform", "rotate(-90)")
+				.attr("y", 48)
+				.attr("x",-25)
+				.attr("dy", ".8em")
+				.style("text-anchor", "end")
+				.text("Pontuação");
 
-		svg3.append("text")             
-			.attr("transform",
-			    "translate(" + (width2-100) + " ," + 
-			                   (height2) + ")")
-			.attr("y",-40)
-			.attr("x",50)
-			.style("text-anchor", "center")
-			.text("Ano");
+			var circles = svg3.selectAll('circle')
+				.data(data3)
+				.enter()
+				.append('circle')
+				.attr(circleInitialAttrsCnt);
 
-		var yAxisGroup = svg3.append('g').attr({
-			'class': 'axis',
-			transform: 'translate(' + [margin.left, 0] + ')'
-		}).call(yAxis);
+			circles.transition()
+				.delay(function(d, i){return i * 10;})
+				.duration(5)
+				.ease('in')
+				.attr(circleAttrsCnt);
 
-		svg3.append("g")
-			.attr("class", "y axis")
-			.call(yAxis)
-			.append("text")
-			.attr("transform", "rotate(-90)")
-			.attr("y", 48)
-			.attr("x",-25)
-			.attr("dy", ".8em")
-			.style("text-anchor", "end")
-			.text("Posição no ranking");
-
-		var circles = svg3.selectAll('circle')
-			.data(data)
-			.enter()
-			.append('circle')
-			.attr(circleInitialAttrs)
-			.on('mouseover', mouseOverHandler)
-			.on('mouseout', mouseOutHandler);
-
-		circles.transition()
-			.delay(function(d, i){return i * 10;})
-			.duration(500)
-			.ease('in')
-			.attr(circleAttrs);
-		});	
-		/* gráfico brasil */
-		var height2 = h*2/3;
-		var width2 = $('#brasil-cont2').width();
-
-		var svg4 = d3.select('#brasilindice').append('svg').attr({
-			width: width2,
-			height: height2
-		});
-
-		var data;
-		d3.json("databrasilindice.json", function(dataJson) {
-			data = dataJson;
-
-		/* desenha o gráfico, com as escalas */
-		var xScale = d3.scale.linear().domain([2010, d3.max(data, function(d) { return d.x; } )]).range([margin.left, width2 - margin.right]);
-		var yScale = d3.scale.linear().domain([38,3]).range([margin.top, height2 - margin.bottom]);
-
-		var xAxis = d3.svg.axis().scale(xScale).orient("bottom").tickSize(2).tickFormat(d3.format("d"));
-		var yAxis = d3.svg.axis().scale(yScale).orient('left').tickSize(2);
-
-		/* posição inicial dos pontos, para ani*/
-		var circleInitialAttrs = {
-			cx: function(d){return xScale(d)},
-			r: 1,
-			fill: 'red'
-		};
-		
-		/* cores dos pontos (de acordo com tipo de dados)*/
-		var controlColors =  function(tipo){
-			if(tipo =="d") return "#D2EAEF";
-			if(tipo =="i") return "#b7e542"}
-
-		/* atributos dos pontos */
-		var circleAttrs = {
-			cx: function(d) { return xScale(d.x); },
-			cy: function(d) { return yScale(d.y); },
-			r: function(d){return 4},
-			fill: function(d){return controlColors(d.tipo)}
-		};
-
-		/* atributos dos pontos */
-		var circleAttrs = {
-			cx: function(d) { return xScale(d.x); },
-			cy: function(d) { return yScale(d.y); },
-			r: function(d){return 4},
-			fill: function(d){return controlColors(d.tipo)}
-		};
-
-		var mouseOverHandler = function(d, i) {
-			d3.select(this).attr({
-		    	r: 10
-		  	});
-			svg4.append('text')
-		    .attr({
-		      	id: 'tlegenda',
-		      	x: function() { return xScale(d.x) - 30 ; },
-		     	y: function() { return yScale(d.y) - 15 ; }, 
-		      	class: 'legenda'
-		    })
-		    .text(function() {
-		    	return [d.y];
-		    });
-		};
-
-		var mouseOutHandler = function(d, i) {
-			d3.select(this).attr({
-		    	r:4
-		  	});
-		  	d3.select('#tlegenda').remove();
-		};
-
-		var xAxisGroup = svg4.append('g').attr({
-			'class': 'axis',
-			transform: 'translate(' + [0, height2-margin.bottom] + ')'
-		}).call(xAxis);
-
-		svg4.append("text")             
-			.attr("transform",
-			    "translate(" + (width2-100) + " ," + 
-			                   (height2) + ")")
-			.attr("y",-40)
-			.attr("x",50)
-			.style("text-anchor", "center")
-			.text("Ano");
-
-		var yAxisGroup = svg4.append('g').attr({
-			'class': 'axis',
-			transform: 'translate(' + [margin.left, 0] + ')'
-		}).call(yAxis);
-
-		svg4.append("g")
-			.attr("class", "y axis")
-			.call(yAxis)
-			.append("text")
-			.attr("transform", "rotate(-90)")
-			.attr("y", 48)
-			.attr("x",-25)
-			.attr("dy", ".8em")
-			.style("text-anchor", "end")
-			.text("Pontuação");
-
-		var circles = svg4.selectAll('circle')
-			.data(data)
-			.enter()
-			.append('circle')
-			.attr(circleInitialAttrs)
-			.on('mouseover', mouseOverHandler)
-			.on('mouseout', mouseOutHandler);
-
-		circles.transition()
-			.delay(function(d, i){return i * 10;})
-			.duration(500)
-			.ease('in')
-			.attr(circleAttrs);
+			$('#slct-pais').change(function(){
+				var pais = $(this).val();
+				console.log('well');
+				$.each(dataJson, function(index,item){
+					if(item['nome']==pais){
+						var anoum = 13;
+						for(var k=0; k<10; k+=2){
+							data3[k] = {};
+							data3[k+1] = {};
+							data3[k]['x']="20"+anoum;
+							data3[k]['y']=item['dem'+anoum];
+							data3[k]['tipo']='d';
+							data3[k+1]['x']="20"+anoum;
+							data3[k+1]['y']=(100-parseInt(item['rsf'+anoum]))/10;
+							data3[k+1]['tipo']='i';
+							anoum++;
+						}
+					}
+				});
+				$('#brasil').find('svg circle').remove();
+				var circles = svg3.selectAll('circle')
+					.data(data3)
+					.enter()
+					.append('circle')
+					.attr(circleInitialAttrsCnt);
+				circles.transition()
+					.delay(function(d, i){return i * 10;})
+					.duration(5)
+					.ease('in')
+					.attr(circleAttrsCnt);	
+			});
 		});	
 	</script>
   </body>

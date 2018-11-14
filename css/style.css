@@ -6,6 +6,8 @@
 /*
     ********************************************************************************************************
 *//* geral */
+::-moz-selection { background-color: #0cbce1; color: #fff;}
+::selection { background-color: #0cbce1; color:#fff; }
 body{
     font-family: 'Raleway', sans-serif;;
     font-size: 13pt;
@@ -30,6 +32,16 @@ a{
 a:hover{
     color: #ffd67b;
     border-bottom: 5px solid #ffd67b;
+}
+.AM, .AF, .AS, .EU, .OC{
+    transition: .2s all ease;
+}
+.hide{
+    r: 0;
+}
+#correlat{
+    background-color: #0cbce157;
+    padding: 1px 5px;
 }
 hr{
     margin: 75px auto;
@@ -98,6 +110,12 @@ p.first::first-letter {
     list-style: none;
     padding: 0px;
 }
+.legenda-din.filter li{
+    display: inline-block;
+}
+select{
+    padding: 5px 10px;
+}
 .legenda-din.active{
     display: block;
 }
@@ -123,7 +141,7 @@ p.first::first-letter {
     background-color: #A0C1D1;
 }
 .flaw2{
-    background-color: #D2EAEF;
+    background-color: #a0dce9;
 }
 .hyb1{
     background-color: #FFCC99;
@@ -144,7 +162,7 @@ p.first::first-letter {
     width: 6px;
 }
 .boa{
-    background-color: #D2EAEF;
+    background-color: #a0dce9;
 }
 .relat{
     background-color: #FFEFB0;
