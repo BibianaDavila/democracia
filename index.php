@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- título site -->
-    <title>Jornalismo e democracia</title>
+    <title>Guerra contra o jornalismo</title>
 
     <!--  jquery + d3 (gráficos) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -54,7 +54,8 @@
 					<div class="row">
 	  					<div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0">  	
 
-							<h1>Onde o jornalismo<br/>não tem vez</h1>
+							<h1>guerra contra<br>o jornalismo<br></h1>
+							<h3>onde a democracia não tem vez</h3>
 							<div class="divider"></div>
 			  				<p class="first">
 			  					Um espectro ronda o jornalismo — o espectro do autoritarismo. É o que aponta o <a href="https://rsf.org/pt/o-ranking-mundial-da-liberdade-de-imprensa-2018-o-odio-ao-jornalismo-ameaca-democracias">Ranking Mundial da Liberdade de Imprensa de 2018</a>, do <a href="https://rsf.org/pt/">Repórteres Sem Fronteira (RSF)</a>, que mostra como o ódio direcionado a jornalistas cresceu nos últimos anos.
