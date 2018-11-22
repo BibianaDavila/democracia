@@ -116,7 +116,7 @@
 			</div>
 			<div class="row">
 				<div class="col-md-8 offset-md-2 text-center">
-					<h4 style="font-weight: bold; color:#ff4848;">*</h4><small>segundo informações dos Repórteres Sem Fronteiras</small>
+					<h4 style="font-weight: bold; color:#ff4848; display: 'inline';">*</h4><small>segundo informações dos Repórteres Sem Fronteiras</small>
 				</div>
 			</div>
 			<hr/>
@@ -242,7 +242,7 @@
 			<div class="row">
 				<div class="col-md-6">
 					<h2>
-	  					Liberdade sem democracia? Talvez.
+	  					Liberdade sem democracia?
 	  				</h2>
 	  				<p>
 	  					Nem sempre a liberdade de imprensa e a democracia andam de mãos dadas.
@@ -448,7 +448,7 @@
 	  			<div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0">
 	  				<hr/>
 	  				<h2>
-	  					Democracia sem liberdade de imprensa? De jeito nenhum.
+	  					Democracia sem liberdade?
 	  				</h2>
 	  				<p>
 	  					Na maior parte dos países (61,5%) a liberdade de imprensa está em uma "situação sensível" ou "difícil". Destas regiões, 65,65% têm regimes híbridos ou puramente autoritários; 33,33% têm democracias imperfeitas; e apenas a República de Maurícia, um país insular do Oceano Índico com cerca de 1.356.388 habitantes, é considerada uma democracia plena com liberdade de imprensa em situação "sensível".
@@ -506,7 +506,7 @@
 	  				<br/><br/>
 	  				<p class="text-right">
 	  					Por Bibiana C. Davila, para a cadeira de Ciberjornalismo II.<br/>
-	  					<i>Universidade Federal do Rio Grande do Sul, outubro de 2018.</i>
+	  					<i>Universidade Federal do Rio Grande do Sul, novembro de 2018.</i>
 	  				</p>
 	  				<br/>
 	  			</div>
