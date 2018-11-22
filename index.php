@@ -115,7 +115,7 @@
 			</div>
 				<div class="row">
 				<div class="col-md-8 offset-md-2 text-center">
-					<h5 style="color:#ff4848;">*</h5><small>segundo informações dos Repórteres Sem Fronteiras</small>
+					<h4 style="font-weight: bold; color:#ff4848;">*</h4><small>segundo informações dos Repórteres Sem Fronteiras</small>
 					</div>
 				</div>
 			</div>
