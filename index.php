@@ -59,9 +59,9 @@
 			  				<p class="first">
 			  					Um espectro ronda o jornalismo — o espectro do autoritarismo. É o que aponta o <a href="https://rsf.org/pt/o-ranking-mundial-da-liberdade-de-imprensa-2018-o-odio-ao-jornalismo-ameaca-democracias">Ranking Mundial da Liberdade de Imprensa de 2018</a>, do <a href="https://rsf.org/pt/">Repórteres Sem Fronteira (RSF)</a>, que mostra como o ódio direcionado a jornalistas cresceu nos últimos anos.
 			  				</p>
-							<p>Profissionais são impedidos de realizar seu trabalho, perseguidos por suas reportagens, ameaçados por suas descobertas. Não que a caça as bruxas aos jornalistas seja um fenômeno novo, mas os protagonistas da trama mudaram.</p>
+							<p>Profissionais são impedidos de realizar seu trabalho, perseguidos por suas reportagens, ameaçados por suas descobertas. Não que a caça às bruxas (ou aos jornalistas, no caso) seja um fenômeno novo, mas os protagonistas da trama mudaram.</p>
 			  				<p>
-			  				Desta vez o autoritarismo não emana de grandes ditadores, tomando o poder a força e subjugando o povo a suas vontades. Do resultado inconteste de urnas, em sistemas reconhecidamente democráticos, emergem líderes que não apenas rejeitam o jornalismo — eles o condenam como o verdadeiro mal na Terra.
+			  				Desta vez, o autoritarismo não emana de grandes ditadores, tomando o poder a força e subjugando o povo a suas vontades. Do resultado inconteste de urnas, em sistemas reconhecidamente democráticos, emergem líderes que não apenas rejeitam o jornalismo — eles o condenam como o verdadeiro mal na Terra.
 			  				</p>
 						</div>
 					</div>
@@ -69,6 +69,7 @@
 			</article>
 		</section>
 		<section class="quotes">
+			<div class="col-md-12"><h2>O que eles dizem</h2</div>
 			<div class="row">
 				<div class="col-md-4 text-center">
 	  				<img src="images/trump.jpg" class="quote-img responsive-img"/>
@@ -105,6 +106,7 @@
 	  		</div>
 	  		<hr/>
 			<div class="row">
+				<div class="col-md-12"><h2>O que os números revelam</h2</div>
 				<div class="col-md-4 offset-md-2 text-center">  	
 					<h1 class="large">63</h1>
 	  				<h3>jornalistas assassinados desde janeiro de 2018</h3>
