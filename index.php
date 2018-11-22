@@ -453,13 +453,13 @@
 	  					Democracia sem liberdade?
 	  				</h2>
 	  				<p>
-	  					Na maior parte dos países (61,5%) a liberdade de imprensa está em uma "situação sensível" ou "difícil". Destas regiões, 65,65% têm regimes híbridos ou puramente autoritários; 33,33% têm democracias imperfeitas; e apenas a República de Maurícia, um país insular do Oceano Índico com cerca de 1.356.388 habitantes, é considerada uma democracia plena com liberdade de imprensa em situação "sensível".
+	  					Na maior parte dos países (61,5%) a liberdade de imprensa está em uma "situação sensível" ou "difícil". Destas regiões, mais da metade têm regimes híbridos ou puramente autoritários; um terço têm democracias imperfeitas; e apenas a República de Maurícia, um país insular do Oceano Índico com cerca de 1.356.388 habitantes, é considerada uma democracia plena com liberdade de imprensa em situação "sensível".
 	  				</p>
 	  				<p>
 	  					Da mesma forma, a grande maioria dos países (95,23%) em uma "situação boa" ou "relativamente boa" em relação à liberdade de imprensa, são considerados democracias plenas ou imperfeitas. Nos dados analisados, apenas Comores (outro conjunto de ilhas no Oceano Índico, com cerca de 806.153 habitantes) e Burkina Faso (no noroeste africano, com 15.757.000 habitantes) não se encaixam neste padrão. 
 	  				</p>
 	  				<p>
-	  					Sem surpresas, em 100% dos países considerados autoritários, a situação da liberdade de imprensa é considerada "grave". Uma nação sem espaço para o jornalismo, provavelmente também será uma nação onde a democracia não tem vez. 
+	  					Sem surpresas, em todos os países considerados autoritários, a situação da liberdade de imprensa é considerada "grave". Uma nação sem espaço para o jornalismo, também será uma nação onde a democracia não tem vez. 
 	  				</p>
 	  				<br/><br/>
 	  			</div>
