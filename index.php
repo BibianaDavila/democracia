@@ -242,7 +242,7 @@
 		</section>
 		<section id="br">
 			<div class="row">
-				<div class="col-md-6">
+				<div class="col-md-5 offset-md-1">
 					<h2>
 	  					Liberdade sem democracia?
 	  				</h2>
