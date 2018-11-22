@@ -57,10 +57,19 @@ h1{
 h2,h3,h4,h5{
     font-family: 'Philosopher';
 }
+.sub-title{
+    display: inline-block;
+    background-color: #ffc6008a;
+    font-style: italic;
+}
 p.first::first-letter { 
     font-family: 'Philosopher';
     font-size: 300%;
     font-weight: bold;
+}
+.large{
+    font-size: 1.2em;
+    line-height: 1.2em;
 }
 .divider{
     width: 300px;
@@ -73,8 +82,31 @@ p.first::first-letter {
     stroke-width: '1px';
     shape-rendering: crispEdges;
 }
-#home{
-    padding: 60px 0 70px 0;
+.quotes .row{
+    margin: 60px 0px;
+}
+section {
+    width: 100%;
+    min-height: 480px;
+    position: relative;
+}
+section article{
+    z-index: 2;
+    display: block;
+    min-height: 100vh;
+    width: 100%;
+    text-align: center;
+    transition: .3s all ease;
+}
+section article .content-center{
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    transition: .3s all ease-out;
 }
 
 .correlac-leg{
@@ -189,6 +221,32 @@ select{
 .grid line {
   stroke: #E0E0E0;
   shape-rendering: crispEdges;
+}
+.responsive-img{
+    max-width: 95%;
+    margin: auto;
+}
+.quote-img{
+    border: 2px solid white;
+    margin-left: 15px;
+    box-shadow: -15px 15px 0px #ff1724eb;
+}
+.quote-img.invert{
+    margin-left: -15px;
+    box-shadow: 15px 15px 0px #ff1724eb;
+}
+h1.large{
+    font-size: 7em;
+    font-weight: bold;
+    display: inline;
+    vertical-align: baseline;
+}
+h1.large.two{
+    vertical-align: top;
+}
+.sub-title.red{
+    background-color: #ff1724eb;
+    color: white;
 }
 @media only screen and (max-width: 480px){
     body{

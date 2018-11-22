@@ -15,7 +15,7 @@
 
     <!-- fonts google + font awesome (ícones) -->
     <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP|Raleway|Philosopher" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
 	<!-- estilos (css+bootstrap) -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -48,24 +48,81 @@
 	<!-- início -->
 	<nav></nav>
 	<div class="container">
-		<section id="home">
-	  		<div class="row">
-	  			<div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0">
-	  				<h1>Jornalismo&<br/>democracia</h1>
-	  				<h5>[em construção]</h5>
-	  				<div class="divider"></div>
+		<section id="title">
+			<article>
+				<div class="content-center">
+					<div class="row">
+	  					<div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0">  	
 
-	  				<p class="first">
-	  					Um espectro ronda o jornalismo — o espectro do autoritarismo. É o que aponta o <a href="https://rsf.org/pt/o-ranking-mundial-da-liberdade-de-imprensa-2018-o-odio-ao-jornalismo-ameaca-democracias">Ranking Mundial da Liberdade de Imprensa de 2018</a>, do <a href="https://rsf.org/pt/">Repórteres Sem Fronteira (RSF)</a>, que indica o crescimento do sentimento de ódio dirigido à jornalistas em todo mundo, fomentado principalmente por líderes autoritários. 
+							<h1>Onde o jornalismo<br/>não tem vez</h1>
+							<div class="divider"></div>
+			  				<p class="first">
+			  					Um espectro ronda o jornalismo — o espectro do autoritarismo. É o que aponta o <a href="https://rsf.org/pt/o-ranking-mundial-da-liberdade-de-imprensa-2018-o-odio-ao-jornalismo-ameaca-democracias">Ranking Mundial da Liberdade de Imprensa de 2018</a>, do <a href="https://rsf.org/pt/">Repórteres Sem Fronteira (RSF)</a>, que mostra como o ódio direcionado a jornalistas cresceu nos últimos anos.
+			  				</p>
+			  				<p>
+			  					Desta vez, entretanto, o autoritarismo não emana de grandes ditadores, tomando o poder a força e subjugando o povo a suas vontades. Do resultado inconteste de urnas, em sistemas reconhecidamente democráticos, emergem líderes que não apenas rejeitam o jornalismo — eles o condenam como o verdadeiro mal na Terra.
+			  				</p>
+						</div>
+					</div>
+				</div>
+			</article>
+		</section>
+		<section class="quotes">
+			<div class="row">
+				<div class="col-md-4 text-center">
+	  				<img src="images/trump.jpg" class="quote-img responsive-img"/>
+	  			</div>
+	  			<div class="col-md-4 text-center">
+	  				<img src="images/duterte.jpg" class="quote-img responsive-img"/>
+	  			</div>	
+	  			<div class="col-md-4 text-center">
+	  				<img src="images/milos.jpg" class="quote-img responsive-img"/>
+	  			</div>
+			</div>
+	  		<div class="row">
+	  			<div class="col-md-4">
+	  				<p class="first large">
+	  					“A mídia fake (New York Times, NBC News, ABC, CBS, CNN) não é minha inimiga, <b>ela é inimiga do Povo Americano</b>!”
 	  				</p>
-	  				<p>
-	  					A hostilidade em relação à mídia é percebida como uma ameaça real à democracia, uma vez que o direito à informação é uma das bases de regimes democráticos. Entretanto, à medida que líderes eleitos como Donald Trump, nos Estados Unidos, Rodrigo Duterte, nas Filipinas e Milos Zeman, na República Tcheca, entre tantos outros, atacam periodicamente jornalistas, os colocando como inimigos de seus governos, fica claro que a relação entre liberdade de imprensa e democracia ainda é vista como insignificante por muitas pessoas. 
+	  				<h6>— <b>Donald J. Trump</b>, 45º presidente dos Estados Unidos da América, eleito com 62.984.828 votos
+ 	  				</h6>
+	  			</div>
+	  			<div class="col-md-4">
+	  				<p class="first large">
+	  					“Só porque você é um jornalista, você não está isento de ser assassinado, se for um filho da puta”
 	  				</p>
-	  				<p>
-	  					Neste sentido, cruzamos os dados do <a href="https://infographics.economist.com/2018/DemocracyIndex/">Democracy Index</a>, elaborado anualmente pela revista <a href="https://www.economist.com/">The Economist</a>, que calcula o índice de democracia para 167 países, a partir de mais de 60 indicadores diferentes; e os dados da própria Repórteres Sem Fronteira, sobre liberdade de imprensa, que avaliam 180 países, através de questionários e dados sobre violência contra profissionais da área. Desta forma, buscamos uma imagem da relação entre democracia e jornalismo.
+	  				<h6>— <b>Rodrigo Duterte</b>, 16º presidente das Filipinas, eleito com 16.601.997 votos
+	  				</h6>
+	  			</div>	
+	  			<div class="col-md-4">
+	  				<p class="first large">
+	  					“Para jornalistas”: inscrição gravada na réplica de um rifle AK-47, que o líder exibiu durante uma coletiva de imprensa
 	  				</p>
+	  				<h6>— <b>Miloš Zeman</b>, 3º presidente da República Tcheca, eleito com 2.717.405 votos
+ 	  				</h6>
+	  			</div>
+	  		</div>
+	  		<hr/>
+			<div class="row">
+				<div class="col-md-4 offset-md-2 text-center">  	
+					<h1 class="large">63</h1>
+	  				<h3>jornalistas assassinados desde janeiro de 2018</h3>
+				</div>
+				<div class="col-md-4 text-center"> 
+					<h1 id="killed-dem" class="large"></h1>
+					<h3>em países considerados democráticos</h3>
+				</div>
+			</div>
+			<hr/>
+	  		<div class="row">
+	  			<div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0">  				
+
+	  				<h2>
+	  					Mas até que ponto uma democracia pode sobreviver sem informação de qualidade?
+	  				</h2>
+	  				<br/>
 	  				<p>
-	  					Foram utilizadas as informações de 161 países, presentes nos dois estudos pelos últimos cinco anos. O ano de 2018 não foi contabilizado porque o índice de democracia ainda não foi publicado pela revista <i>The Economist</i>. 
+	  					Se não há uma resposta exata, a análise de dados pode indicar a realidade. O cruzamento de <i>indicadores de liberdade de imprensa</i> e <i>de nível de democracia</i> demonstra uma forte correlação entre os dois fenômenos.
 	  				</p>
 	  			</div>
 	  		</div>
@@ -152,18 +209,24 @@
 		<section>
 			<div class="row">
 	  			<div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0">
-	  				<h4><i class="fa fa-exclamation-circle"></i> para entender o gráfico</h4>
+	  				<h4><i class="fas fa-dice"></i> para entender os dados</h4>
 	  				<p>
-	  					O <b>índice de democracia</b> varia de zero a dez, sendo que o zero corresponde a um regime plenamente autoritário e o 10 a um regime plenamente democrático. 
+	  					O <b>índice de democracia</b> corresponde ao <a href="https://infographics.economist.com/2018/DemocracyIndex/">Democracy Index</a>, elaborado anualmente pela revista <a href="https://www.economist.com/">The Economist</a>, que calcula o índice de democracia para 167 países, a partir de mais de 60 indicadores diferentes. A escala varia de zero a dez, sendo que o zero corresponde a um regime plenamente autoritário e o 10 a um regime plenamente democrático. 
 	  				</p>
 	  				<p>
-	  					Já o <b>índice de liberdade de imprensa</b> varia de zero a 100, com o zero correspondendo  a censura total. sem nenhuma garantia de segurança aos jornalistas na região e o 100 à liberdade completa (nenhuma ameaça aos repórteres). <b>A escala original utilizada pelos Repórteres Sem Fronteira é inversa à utilizada aqui.</b> 
+	  					Já o <b>índice de liberdade de imprensa</b> é calculado pela RSF, que avalia 180 países, através de questionários e dados sobre violência contra profissionais da área. Os dados originais variam de zero a 100, com o zero correspondendo  a censura total (sem nenhuma garantia de segurança aos jornalistas na região) e o 100 à liberdade completa (nenhuma ameaça aos repórteres). 
 	  				</p>
 	  				<p>
-	  					No gráfico acima, é possível perceber uma grande correlação entre os dois indicadores, com um grau consistente de 0.7 de correspondência entre eles, nos últimos anos. Ou seja, há uma tendência de que países mais democráticos também sejam países com maior liberdade de imprensa.
+	  					Para fins de visualização, os dados foram convertidos para uma escala similar a do índice de democracia. Assim, o zero passou a corresponder ao menor nível de liberdade possível e o dez, a liberdade absoluta.
+	  				</p>
+	  				<p>
+	  					Foram utilizadas as informações de 161 países, presentes nos dois estudos pelos últimos cinco anos. O ano de 2018 não foi contabilizado porque o índice de democracia ainda não foi publicado pela revista <i>The Economist</i>. 
 	  				</p>
 	  				<p>
 	  					Ao lado, é possível verificar a maneira como as organizações classificam estes índices, de acordo com o nível de democracia ou de liberdade de imprensa.
+	  				</p>
+	  				<p>
+	  					A correlação entre os dois indicadores foi calculada a partir do Coeficiente de correlação de Pearson. Utilizando esta fórmula, é possível perceber que nos últimos anos há um grau consistente de 0.7 de correspondência entre liberdade de imprensa e democracia.
 	  				</p>
 	  				<hr/>
 	  			</div>
@@ -172,25 +235,36 @@
 		<section id="br">
 			<div class="row">
 				<div class="col-md-6">
-					<p class="first">
-	  					Em relação ao Brasil, o país ocupa a 102º posição no ranking de liberdade de imprensa, com uma pontuação de 31.20, uma situação considerada "sensível". Em relação à democracia, o país ocupou o 49º em 2017, com 6.86 pontos, sendo considerado uma "democracia imperfeita". 
+					<h2>
+	  					Liberdade sem democracia? Talvez.
+	  				</h2>
+	  				<p>
+	  					Nem sempre a liberdade de imprensa e a democracia andam de mãos dadas.
 	  				</p>
 	  				<p>
-	  					Abaixo, o histórico brasileiro nos dois rankings e os índices alcançados pelo país nos últimos sete anos.  
+	  					Principalmente em democracias jovens, o que se vê ainda é um regime sensível, mas com altos índices de liberdade de imprensa.
 	  				</p>
-	  				<br/><br/>
-	  				 <h4><i class="fa fa-exclamation-circle"></i> para entender os gráficos</h4>
 	  				<p>
-	  					O <b>gráfico da direita</b> indica a posição brasileira nos dois rankings, nos últimos sete anos. <b>Quanto menor</b> a posição neste gráfico, melhor foi o desempenho do país. É preciso ressaltar, entretanto, que a posição no ranking também está ligada a fatores externos ao Brasil, que causam movimentações em toda a lista. O <b>gráfico da esquerda</b> indica o índice alcançado pelo Brasil nos rankings no mesmo período.  
+	  					Por outro lado, alguns países com democracias plenas tem uma correspondência quase exata entre os dois indicadores. É o caso do Canadá, Finlândia, Alemanha e Nova Zelândia, por exemplo. Outros fatores como o grau de desenvolvimento destes países, entretanto, podem explicar este fenômeno.
+	  				</p>
+	  				<br/>
+	  				<h4><i class="fas fa-dice"></i> para entender os dados</h4>
+	  				<p>
+	  					Ao lado, uma comparação entre os indicadores de liberdade de imprensa e democracia ao longo dos anos, para cada um dos países analisados.
 	  				</p>
 	  			</div>	
 	  			<div class="col-md-6" id="brasil-cont">
-	  			<div class="correlac-leg text-right">
+	  			<div class="correlac-leg text-left">
 	  				<div class="data-box" style="max-width: 100%; margin-top: -50px;">
 		  				<div id="brasil"></div>
 					</div>
 
-						<ul class="legenda-din filter active">
+						<ul class="legenda-din active inline">
+							<li style="display: inline-block; margin-left: 30px; "><div class="leg-cor-1 flaw2"></div> Democracia</li>
+							<li style="display: inline-block;"><div class="leg-cor-1 imp"></div> Liberdade de imprensa </li>
+						</ul>
+
+						<ul class="legenda-din filter active" style="margin-left: 30px;">
 							<li>
 							<select name="pais" id="slct-pais">
 							    <option value="Noruega">Noruega</option>
@@ -357,10 +431,7 @@
 							</select>
 							</li>
 						</ul>
-						<ul class="legenda-din active inline">
-							<li style="display: inline-block; margin-right: 10px; "><div class="leg-cor-1 flaw2"></div> Democracia</li>
-							<li style="display: inline-block;"><div class="leg-cor-1 imp"></div> Liberdade de imprensa </li>
-						</ul>
+						
 					</div>
 					
 				</div>	
@@ -370,14 +441,17 @@
 			<div class="row">
 	  			<div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0">
 	  				<hr/>
-	  				<p class="first">
-	  					Na maior parte dos países (61,5%) a liberdade de imprensa está em uma "situação sensível" ou "difícil". Destas regiões, 65,65% tem regimes híbridos ou puramente autoritários; 33,33% têm democracias imperfeitas; e apenas a República de Maurícia, um país insular do Oceano Índico com cerca de 1.356.388 habitantes, é considerada uma democracia plena com liberdade de imprensa em situação "sensível".
+	  				<h2>
+	  					Democracia sem liberdade de imprensa? De jeito nenhum.
+	  				</h2>
+	  				<p>
+	  					Na maior parte dos países (61,5%) a liberdade de imprensa está em uma "situação sensível" ou "difícil". Destas regiões, 65,65% têm regimes híbridos ou puramente autoritários; 33,33% têm democracias imperfeitas; e apenas a República de Maurícia, um país insular do Oceano Índico com cerca de 1.356.388 habitantes, é considerada uma democracia plena com liberdade de imprensa em situação "sensível".
 	  				</p>
 	  				<p>
 	  					Da mesma forma, a grande maioria dos países (95,23%) em uma "situação boa" ou "relativamente boa" em relação à liberdade de imprensa, são considerados democracias plenas ou imperfeitas. Nos dados analisados, apenas Comores (outro conjunto de ilhas no Oceano Índico, com cerca de 806.153 habitantes) e Burkina Faso (no noroeste africano, com 15.757.000 habitantes) não se encaixam neste padrão. 
 	  				</p>
 	  				<p>
-	  					Sem surpresas, em 100% dos países considerados autoritários, a situação da liberdade de imprensa é considerada "grave". Abaixo, a relação completa entre a classificação da RSF e os níveis de democracia estabelecidos pela Economist.
+	  					Sem surpresas, em 100% dos países considerados autoritários, a situação da liberdade de imprensa é considerada "grave". Uma nação sem espaço para o jornalismo, provavelmente também será uma nação onde a democracia não tem vez. 
 	  				</p>
 	  				<br/><br/>
 	  			</div>
@@ -410,25 +484,19 @@
 		<section>
 			<div class="row">
 	  			<div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0">
-	  				<h4><i class="fa fa-exclamation-circle"></i> para entender o gráfico</h4>
+	  				<h4><i class="fas fa-dice"></i> para entender os dados</h4>
 	  				<p>
-	  					Os países estão distribuídos de acordo com a classificação definida pelos Repórteres Sem Fronteira. Países com um índice de liberdade de imprensa
+	  					Os países estão distribuídos de acordo com a classificação definida pelos Repórteres Sem Fronteira, de acordo com a escala personalizada utilizada nos gráficos anteriores. Países com um índice de liberdade de imprensa
 	  				</p>
 	  					<ul>
-	  						<li><b>menor do que 15 pontos</b>, são considerados em uma <b>situação boa</b>; 
-	  						<li><b>entre 25 e 15 pontos</b>, são considerados em uma <b>situação relativamente boa</b>;</li>
-	  						<li>entre <b>35 e 25 pontos</b>, em uma <b>situação sensível</b>;</li>
-	  						<li><b>entre 35 e 55 pontos</b>, em uma <b>situação difícil</b>;</li>
-	  						<li>e <b>acima de 55 pontos</b>, em uma <b>situação grave</b>.</li>
+	  						<li><b>maior do que 8.5</b>, são considerados em uma <b>situação boa</b>; 
+	  						<li><b>entre 7.5 e 8.5 pontos</b>, são considerados em uma <b>situação relativamente boa</b>;</li>
+	  						<li>entre <b>6.5 e 7.5 pontos</b>, em uma <b>situação sensível</b>;</li>
+	  						<li><b>entre 4.5 e 6.5 pontos</b>, em uma <b>situação difícil</b>;</li>
+	  						<li>e <b>abaixo de 4.5 pontos</b>, em uma <b>situação grave</b>.</li>
 	  					</li>
 	  				</ul>
 	  				<hr/>
-	  				<p class="first">
-	  					Apesar dos dados confirmarem a noção de que há uma correlação entre uma imprensa livre e regimes democráticos, é preciso frisar que não necessariamente há uma relação de causalidade entre ambos. Mesmo países reconhecidamente democráticos, como a Índia e o México, possuem fortes restrições à jornalistas. 
-	  				</p>
-	  				<p>
-	  					Ainda assim, o enfraquecimento da imprensa em escala global deve ser visto com olhos críticos pelos defensores da democracia. Até que ponto esta movimentação influenciará os governos mundo afora, ainda não se sabe. 
-	  				</p>
 	  				<br/><br/>
 	  				<p class="text-right">
 	  					Por Bibiana C. Davila, para a cadeira de Ciberjornalismo II.<br/>
@@ -467,11 +535,19 @@
 		d3.json("data2017.json", function(dataJson) {
 			data = dataJson;
 
+			var mortos_dem = 0;
+
 			$.each(data, function(index,item){
 				data[index]['y'] = data[index]['rsf'+"17"];
 				data[index]['x'] = data[index]['dem'+"17"];
+
+				/*========= jornalistas mortos em países democráticos ===========*/
+				if(item['killed18']!=0 && parseInt(item['dem17'])>=6){
+					mortos_dem = mortos_dem+parseInt(item['killed18']);
+				}
 			});
-			console.log(data);
+
+			$('#killed-dem').html(mortos_dem);
 
 			/* desenha o gráfico, com as escalas */
 			var xScale = d3.scale.linear().domain([0,10.9]).range([margin.left, w - margin.right]);
@@ -776,7 +852,7 @@
 
 			var y = d3.scale.linear().range([height, 0]);
 
-			var color = d3.scale.ordinal().range(["#37566A", "#D2EAEF" , "#FFEFB0", "#e86363"]);
+			var color = d3.scale.ordinal().range(["#4796c8", "#a0dce9" , "#ffe16d", "#ff4848"]);
 
 			var xAxis = d3.svg.axis()
 			    .scale(x0)
@@ -840,7 +916,7 @@
 
 		/*=================================
 
-		BRASIL
+		PAÍSES
 
 		==================================*/
 		var height2 = h*2/3;
