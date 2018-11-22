@@ -253,7 +253,7 @@
 	  					Principalmente em democracias jovens, o que se vê ainda é um regime sensível, mas com altos índices de liberdade de imprensa.
 	  				</p>
 	  				<p>
-	  					Por outro lado, alguns países com democracias plenas tem uma correspondência quase exata entre os dois indicadores. É o caso do Canadá, Finlândia, Alemanha e Nova Zelândia, por exemplo. Outros fatores como o grau de desenvolvimento destes países, entretanto, podem explicar este fenômeno.
+	  					Por outro lado, alguns países com democracias plenas têm uma correspondência quase exata entre os dois indicadores. É o caso do Canadá, Finlândia, Alemanha e Nova Zelândia, por exemplo. Outros fatores como o grau de desenvolvimento destes países, entretanto, podem explicar este fenômeno.
 	  				</p>
 	  				<br/>
 	  				<h4><i class="fas fa-dice"></i> para entender os dados</h4>
