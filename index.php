@@ -111,6 +111,7 @@
 				<div class="col-md-4 text-center"> 
 					<h1 id="killed-dem" class="large"></h1>
 					<h3>em países considerados democráticos</h3>
+					<br/><small>*segundo informações dos Repórteres Sem Fronteiras</small>
 				</div>
 			</div>
 			<hr/>
