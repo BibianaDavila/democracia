@@ -118,8 +118,9 @@
 			</div>
 			<div class="row">
 				<div class="col-md-8 offset-md-2 text-center">
-					<h4 style="font-weight: bold; color:#ff4848; display: 'inline';">*</h4><small>segundo informações dos Repórteres Sem Fronteiras</small>
 					<p style="font-size: 1.2em" id="killed-list"></p>
+					<br/>
+					<h4 style="font-weight: bold; color:#ff4848; display: 'inline';">*</h4><small>segundo informações dos Repórteres Sem Fronteiras</small>
 				</div>
 			</div>
 			<hr/>
@@ -553,7 +554,7 @@
 				/*========= jornalistas mortos em países democráticos ===========*/
 				if(item['killed18']!=0 && parseInt(item['dem17'])>=6){
 					mortos_dem = mortos_dem+parseInt(item['killed18']);
-					$('#killed-list').append(item['nome']+' <span style="color:#ff4848">'+item['killed18']+'</span>, ');
+					$('#killed-list').append(item['nome']+' <span style="color:#ff4848">('+item['killed18']+')</span>, ');
 				}
 			});
 
