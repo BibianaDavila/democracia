@@ -69,7 +69,7 @@
 			</article>
 		</section>
 		<section class="quotes">
-			<div class="col-md-12 text-center"><h2>O que eles dizem</h2></div>
+			<div class="col-md-12 text-center"><h2>o que eles dizem</h2></div>
 			<div class="row">
 				<div class="col-md-4 text-center">
 	  				<img src="images/trump.jpg" class="quote-img responsive-img"/>
@@ -106,7 +106,7 @@
 	  		</div>
 	  		<hr/>
 			<div class="row">
-				<div class="col-md-12 text-center"><h2>O que os números revelam</h2></div>
+				<div class="col-md-12 text-center"><h2>o que os números revelam</h2></div>
 				<div class="col-md-4 offset-md-2 text-center">  	
 					<h1 class="large">63</h1>
 	  				<h3>jornalistas assassinados desde janeiro de 2018</h3>
@@ -119,6 +119,7 @@
 			<div class="row">
 				<div class="col-md-8 offset-md-2 text-center">
 					<h4 style="font-weight: bold; color:#ff4848; display: 'inline';">*</h4><small>segundo informações dos Repórteres Sem Fronteiras</small>
+					<p id="killed-list"></p>
 				</div>
 			</div>
 			<hr/>
@@ -552,6 +553,7 @@
 				/*========= jornalistas mortos em países democráticos ===========*/
 				if(item['killed18']!=0 && parseInt(item['dem17'])>=6){
 					mortos_dem = mortos_dem+parseInt(item['killed18']);
+					$('#killed-list').append(item['nome']+' <span style="color:#ff4848">'+item['killed18']+'</span><br/>');
 				}
 			});
 
