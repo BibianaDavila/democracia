@@ -59,8 +59,9 @@
 			  				<p class="first">
 			  					Um espectro ronda o jornalismo — o espectro do autoritarismo. É o que aponta o <a href="https://rsf.org/pt/o-ranking-mundial-da-liberdade-de-imprensa-2018-o-odio-ao-jornalismo-ameaca-democracias">Ranking Mundial da Liberdade de Imprensa de 2018</a>, do <a href="https://rsf.org/pt/">Repórteres Sem Fronteira (RSF)</a>, que mostra como o ódio direcionado a jornalistas cresceu nos últimos anos.
 			  				</p>
+							<p>Profissionais são impedidos de realizar seu trabalho, perseguidos por suas reportagens, ameaçados por suas descobertas. Não que a caça as bruxas aos jornalistas seja um fenômeno novo, mas os protagonistas da trama mudaram.</p>
 			  				<p>
-			  					Desta vez, entretanto, o autoritarismo não emana de grandes ditadores, tomando o poder a força e subjugando o povo a suas vontades. Do resultado inconteste de urnas, em sistemas reconhecidamente democráticos, emergem líderes que não apenas rejeitam o jornalismo — eles o condenam como o verdadeiro mal na Terra.
+			  				Desta vez o autoritarismo não emana de grandes ditadores, tomando o poder a força e subjugando o povo a suas vontades. Do resultado inconteste de urnas, em sistemas reconhecidamente democráticos, emergem líderes que não apenas rejeitam o jornalismo — eles o condenam como o verdadeiro mal na Terra.
 			  				</p>
 						</div>
 					</div>
