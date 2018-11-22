@@ -118,7 +118,7 @@
 				<div class="col-md-8 offset-md-2 text-center">
 					<p style="font-size: 1.2em" id="killed-list"></p>
 					<br/>
-					<h4 style="font-weight: bold; color:#ff4848; display: 'inline';">*</h4><small>segundo informações dos Repórteres Sem Fronteiras</small>
+					<h4 style="font-weight: bold; color:#ff4848; display: 'inline';">*</h4><small>segundo informações dos <a href="https://rsf.org/en/barometer?type_id=233#list-barometre"> Repórteres Sem Fronteiras</a></small>
 				</div>
 			</div>
 			<hr/>
