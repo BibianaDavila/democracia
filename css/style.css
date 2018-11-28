@@ -268,9 +268,13 @@ h1.large.two{
         margin: 45px auto;
     }
     h1{
-        font-size: 27pt;
+        font-size: 30pt;
         line-height: 32px;
     }
+   h3{
+   font-size: 16pt;
+    line-height: 16px;
+   }
     .divider{
         width: 75%;
         border-bottom:5px dotted #000;
