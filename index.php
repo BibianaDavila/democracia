@@ -71,13 +71,13 @@
 		</section>
 		<section class="quotes">
 			<div class="row">
-				<div class="col-xs-4 text-center">
+				<div class="col-xl-4 text-center">
 	  				<img src="images/trump.jpg" class="quote-img responsive-img"/>
 	  			</div>
-	  			<div class="col-xs-4 text-center">
+	  			<div class="col-xl-4 text-center">
 	  				<img src="images/duterte.jpg" class="quote-img responsive-img"/>
 	  			</div>	
-	  			<div class="col-xs-4 text-center">
+	  			<div class="col-xl-4 text-center">
 	  				<img src="images/milos.jpg" class="quote-img responsive-img"/>
 	  			</div>
 			</div>
