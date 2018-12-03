@@ -98,6 +98,7 @@ $(document).ready(function(){
     var w = $('#correlac-cont').width();
     var h = window.innerHeight-100;
     if(h>w+w/2) h=h-h/5;
+    if(h>500)h=500;
 
     var svgpontos = d3.select('#correlac').append('svg').attr({
         width: w+10,
@@ -406,7 +407,7 @@ $(document).ready(function(){
     });
     var data2 = [
         {
-            "imprensa": "Situação boa",
+            "imprensa": "Boa",
             "full": 12, 
             "flaw": 4, 
             "hyb": 0, 
