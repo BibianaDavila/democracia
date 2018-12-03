@@ -1,143 +1,77 @@
-/*==== site jornalismo e democracia ====*/
-/*==== desenvolvido por bibiana davila ===*/
-/*==== projeto desenvolvido para o curso de Jornalismo da UFRGS ===*/
-/*==== outubro de 2018 ===*/
-
-/*
-    ********************************************************************************************************
-*//* geral */
-::-moz-selection { background-color: #0cbce1; color: #fff;}
-::selection { background-color: #0cbce1; color:#fff; }
-body{
-    font-family: 'Raleway', sans-serif;;
+/*=== general styles ===*/
+::selection{
+    background: #000;
+    color: #fff;
+}
+body {
+    font-family: 'Raleway', sans-serif;
     font-size: 13pt;
     line-height: 18pt;
 }
-nav{
-    position: fixed;
-    z-index:1000;
-}
-nav, footer{
-    width: 100%;
-    height: 10px;
-    background-color: #000;
-}
 a{
-    color: #0cbce1;
+    color: #ff3b3b;
     text-decoration: none !important;
-    border-bottom: 2px solid #0cbce1;
+    border-bottom: 0px solid #ff3b3b;
     margin-bottom: -5px;
     transition: .2s all ease;
 }
 a:hover{
-    color: #ffd67b;
-    border-bottom: 5px solid #ffd67b;
+    color: #ff3b3b;
+    border-bottom: 3px solid #ff3b3b;
 }
-.AM, .AF, .AS, .EU, .OC{
-    transition: .2s all ease;
-}
-.hide{
-    r: 0;
-}
-#correlat{
-    background-color: #0cbce157;
-    padding: 1px 5px;
-}
-hr{
-    margin: 75px auto;
-    width: 40%;
-    border-top: 6px dotted rgba(0,0,0,.3);
-}
-h1{
-   padding-top: 120px;
+h1,h2,h3,h4,h5{
     font-family: 'Philosopher';
-    font-size: 72pt;
-    line-height: 80px;
     text-transform: lowercase;
 }
-h2,h3,h4,h5{
-    font-family: 'Philosopher';
+h1 {
+    font-size: 4.2em;
+    line-height: .8em;
+    padding-top: 50px;
 }
-.sub-title{
-    display: inline-block;
-    background-color: #ffc6008a;
-    font-style: italic;
+h1.large{
+    font-size: 6em;
 }
 p.first::first-letter { 
     font-family: 'Philosopher';
     font-size: 300%;
     font-weight: bold;
 }
-.large{
+p.large{
     font-size: 1.2em;
-    line-height: 1.2em;
 }
-.divider{
-    width: 300px;
-    padding-top: 50px;
-    margin-bottom: 50px;
-    border-bottom: 8px dotted #000;
+hr{
+    margin-left: 0;
+    margin-bottom: 2rem;
+    width: 15%;
+    max-width: 80px;
+    border-top: 4px solid #ff3b3b;
 }
-.axis path, .axis line {
-    fill: grey;
-    stroke-width: '1px';
-    shape-rendering: crispEdges;
+.space{
+    padding: 30px 0;
 }
-.quotes .row{
-    margin: 60px 0px;
+.hide{
+    r: 0;
 }
-section {
-    width: 100%;
-    min-height: 480px;
-    position: relative;
+.responsive-img {
+    max-width: 95%;
+    margin: auto;
 }
-section article{
-    z-index: 2;
-    display: block;
-    min-height: 100vh;
-    width: 100%;
-    text-align: center;
-    transition: .3s all ease;
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
 }
-section article .content-center{
-    display: block;
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: left;
-    transition: .3s all ease-out;
+.y .tick line {
+    stroke: #ddd;
 }
-
-.correlac-leg{
-    vertical-align: bottom;
-    margin-top: 50px;
-    padding-left: 50px;
-}
-.correlac-leg ul{
-    vertical-align: bottom;
-    list-style: none;
-    padding: 0px;
-}
-.correlac-leg ul.botoes li{
+.asterisco{
     display: inline-block;
-    font-size: 11pt;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    padding: 5px 10px;
-    color: #fff;
-    background-color: #bcbdbd;
-    border: 1px solid #bcbdbd;
-    transition: .2s all ease;
-    font-weight: normal;
+    font-size: 6em;
+    vertical-align: bottom;
+    margin-bottom: -20px;
+    color:#ff3b3b;
 }
-.correlac-leg ul.botoes li:hover, .correlac-leg ul.botoes li.active{
-    background-color: #fff;
-    border: 1.5px solid #0cbce1;
-    color: #0cbce1;
-    cursor: pointer;
-}
+/*=== legendas ===*/
 .legenda-din{
     display: none;
     list-style: none;
@@ -152,80 +86,183 @@ select{
 .legenda-din.active{
     display: block;
 }
+ul.legenda-din{
+    padding: 0px;
+    list-style-type: none;
+}
+ul.legenda-din li{
+    display: inline-block;
+}
+#leg-dem.legenda-din li,#leg-press.legenda-din li{
+    display: block;
+}
+ul.legenda-din li div.text{
+    display: inline-block;
+    margin-top: -7px;
+    padding-left: 7px;
+    padding-right: 15px;
+    vertical-align: middle;
+}
 .leg-cor{
     display: inline-block;
-    background-color: black;
+    margin-right: -5px;
     width: 9px;
-    height: 15px;
-}
-.leg-cor-1{
-    display: inline-block;
+    height: 18px;
     background-color: black;
-    width: 18px;
-    height: 15px;
+    vertical-align: top;
+    border-radius: 500px 0px 0px 500px;
 }
-.full1{
-    background-color: #37566A;
+.leg-cor.full1{
+    background-color: #ff626a;
 }
-.full2{
-    background-color: #6E8493;
+.leg-cor.flaw1{
+    background-color: #ff1724eb;
 }
-.flaw1{
-    background-color: #A0C1D1;
+.leg-cor.full1-blue{
+    background-color: #13536b;
 }
-.flaw2{
-    background-color: #a0dce9;
+.leg-cor.flaw1-blue{
+    background-color: #68dade;
 }
-.hyb1{
-    background-color: #FFCC99;
+.leg-cor.hyb1{
+    background-color: #ffe16d;
 }
-.hyb2{
-    background-color: #FFEFB0;
-}
-.aut1{
-    background-color: #B61B1B;
-    width: 6px;
-}
-.aut2{
-    background-color: #EF9575;
-    width: 6px;
-}
-.aut3{
-    background-color: #FF7373;
-    width: 6px;
+.leg-cor.aut1{
+    background-color: #ff3b3b;
 }
 .boa{
-    background-color: #a0dce9;
+    background-color: #68dade;
 }
 .relat{
-    background-color: #FFEFB0;
+    background-color: #ffe16d;
 }
 .sens{
-    background-color:#FFCC99;
+    background-color:#ff3b3b;
 }
 .difi{
-    background-color:#e13c3c;  
+    background-color:#a32d2d;  
 }
 .grave{
     background-color:#3C3636;
 }
-.aut{
-    background-color: #e86363;
+.correlac-leg{
+    vertical-align: bottom;
+    margin-top: 50px;
+    padding-left: 50px;
 }
-.imp{
-    background-color: #b7e542;
+.correlac-leg ul{
+    vertical-align: bottom;
+    list-style: none;
+    padding: 0px;
 }
-.grid path {
-  stroke: none;
+.correlac-leg ul.botoes li{
+    display: inline-block;
+    font-size: 9pt;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 1px 7px;
+    color: #fff;
+    background-color: #bcbdbd;
+    border: 1px solid #bcbdbd;
+    transition: .2s all ease;
+    font-weight: normal;
+}
+.correlac-leg ul.botoes li:hover, .correlac-leg ul.botoes li.active{
+    background-color: #fff;
+    border: 1px solid #ff1724eb;
+    box-shadow: -2px 2px 0px #ff1724eb;
+    color: #ff1724eb;
+    cursor: pointer;
+}
+/*=== menu ===*/
+nav{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0px;
+}
+#nav-icon{
+    margin: 22px 15px;
+    float: right;
+    width: 28px;
+    height: 20px;
+    position: relative;
+    transform: rotate(0deg);
+    transition: .5s ease-in-out;
+    cursor: pointer;
+    z-index: 10;
+}
+#nav-icon span {
+    display: block;
+    position: absolute;
+    height: 4px;
+    width: 100%;
+    background: #ff3b3b;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+#nav-icon.open span:nth-child(1), #nav-icon span:nth-child(3) {
+    transition: .25s ease-in-out;
+}
+#nav-icon span:nth-child(1) {
+    top: -6.5px;
+    left: 13.5px;
+    transform: rotate(90deg);
+    transform-origin: left center;
+}
+#nav-icon span:nth-child(2) {
+    top: 8px;
+    transform-origin: left center;
+}
+#nav-icon span:nth-child(3) {
+    top: 16px;
+    transform-origin: left center;
+}
+#nav-icon.open span:nth-child(1) {
+    transform: rotate(45deg);
+    top: -3px;
+    left: 8px;
+    background-color: #fff;
+}
+#nav-icon.open span:nth-child(2) {
+    transform: rotate(-45deg);
+    top: 17px;
+    left: 7.5px;
+    background-color: #fff;
 }
 
-.grid line {
-  stroke: #E0E0E0;
-  shape-rendering: crispEdges;
+#menu{
+    position: fixed;
+    right: 0px;
+    min-height: 100vh;
+    width: 0;
+    background-color: #000000f0;
+    color: #fff;
+    transition: .5s opacity ease-in-out;
+    opacity: 0;
+    z-index: -1;
 }
-.responsive-img{
-    max-width: 95%;
-    margin: auto;
+#menu.open{
+    width:35%;
+    min-width: 400px;
+    max-width: 100vw !important;
+    opacity: 1;
+    z-index: 1;
+}
+.menu-inner{
+    display: none;
+    margin: 50px;
+}
+#menu.open .menu-inner{
+    display: block;
+}
+/*=== quotes ===*/
+.quotes{
+    margin: 60px 0;
 }
 .quote-img{
     border: 2px solid white;
@@ -236,54 +273,52 @@ select{
     margin-left: -15px;
     box-shadow: 15px 15px 0px #ff1724eb;
 }
-h1.large{
-    font-size: 7em;
-    font-weight: bold;
-    display: inline;
-    vertical-align: baseline;
+.quote-content{
+    padding: 0px 15px;
+    top: 70%;
+    position: absolute;
+    transform: translateY(-50%);
 }
-h1.large.two{
-    vertical-align: top;
+.quote-content p.first.large{
+    text-indent: -1em;
 }
-.sub-title.red{
-    background-color: #ff1724eb;
-    color: white;
-}
-@media (max-width: 768px){
-   section article .content-center{
-       position: relative;
-    transform: none;
-    top: auto;
-    left: auto;
-    padding-top: 50px;
-   }
-}
-@media only screen and (max-width: 480px){
-    body{
-        max-width: 480px;
-        font-size: 12pt;
-        line-height: 16pt;
-    }
 
-    hr{
-        margin: 45px auto;
+@media only screen and (max-width: 767px){
+    .correlac-leg{
+        padding-left: 15px;
+    }
+}
+
+@media only screen and (max-width:575px){
+    body{
+        padding: 0px 25px;
     }
     h1{
-        padding-top: 0px;
-        font-size: 30pt;
-        line-height: 32px;
+        font-size:3em;
     }
-   h3{
-   font-size: 16pt;
-    line-height: 16px;
-   }
-    .divider{
-        width: 75%;
-        border-bottom:5px dotted #000;
-        padding:15px 0px;
+    h3{
+        font-size: 1.4em;
     }
-    .correlac-leg{
-        padding-left: 0px;
-        margin-top: 0px;
+    .table th{
+        border-top: 0px;
+    }
+    th.rotate {
+      /* Something you can count on */
+      white-space: nowrap;
+    }
+
+    th.rotate > div {
+      transform: 
+        /* Magic Numbers */          translate(5px, 0px)          /* 45 is really 360 - 45 */          rotate(325deg);
+      width: 30px;
+    }
+    th.rotate > div > span {
+      padding: 5px 10px;
+    }
+    .quote-content{
+        position: relative;
+        transform: none;
+        padding-top: 50px;
+        top: auto;
     }
 }
